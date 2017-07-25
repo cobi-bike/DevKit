@@ -44,14 +44,19 @@ You can find some examples apps in the [examples](examples) directory.
 
 Check out our [Interface Guidelines](interface-guidelines.md) to understand more about the COBI system and how WebApps work and interact with the COBI app.
 
-## Available data
-
-The full documentation of the available data and its data types is available [here](https://cobi-bike.github.io/COBI.js/).
-
 ## More information
 
 - [FAQ](FAQ.md)
 - [forums](forums.cobi.bike)
 - [COBI.js docs](https://cobi-bike.github.io/COBI.js/)
+
+## Contributing to this project
+
+Anyone and everyone is welcome to contribute. Please take a moment to
+review the [guidelines for contributing](CONTRIBUTING.md).
+
+* [Bug reports](CONTRIBUTING.md#bugs)
+* [Feature requests](CONTRIBUTING.md#features)
+* [Pull requests](CONTRIBUTING.md#pull-requests)
 
 Copyright © 2017 COBI GmbH
