@@ -40,6 +40,8 @@ COBI.intelligenceService.heartRate.read(function(heartrate) {
 
 You can find some examples apps in the [examples](examples) directory.
 
+An overview of the COBI.js architecture can be found [here](COBI.js architecture.png)
+
 ## Interface Guidelines
 
 Check out our [Interface Guidelines](interface-guidelines.md) to understand more about the COBI system and how WebApps work and interact with the COBI app.
