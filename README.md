@@ -49,6 +49,13 @@ Check out our [Interface Guidelines](interface-guidelines.md) to understand more
 - [FAQ](FAQ.md)
 - [forums](forums.cobi.bike)
 - [COBI.js docs](https://cobi-bike.github.io/COBI.js/)
+- [COBI.js Simulator](https://github.com/cobi-bike/COBI.js-simulator)
+
+### useful tools
+
+- [glitch](https://glitch.com/) is the friendly community where you'll build the app of your dreams
+- [codepen](https://codepen.io/) is a social development environment for front-end designers and developers
+
 
 ## Contributing to this project
 
