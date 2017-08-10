@@ -2,7 +2,7 @@
 
 The COBI DevKit is the world's first platform that offers everything you need to easily design & build interactive experiences for riding on a bike. The COBI hardware and software takes away all the hard work (e.g. securely mounting and powering the phone, remote control, acquiring sensor-, eBike- and riding data) so that developers can fully focus on bringing new experiences to life with a stream of riding data and a fullscreen canvas embedded in the COBI dashboard:
 
-Introducing _COBI Modules.
+Introducing _COBI Modules_.
 
 ![COBI](COBI-Extensions-Header.png)
 
