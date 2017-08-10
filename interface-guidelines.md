@@ -37,9 +37,9 @@ COBI enables developers to design interactive modules that are loved by users wh
 * Take advantage of voice feedback to enable users to perform actions in your module without looking at the screen.
 * Depending on the bike different Thumb Controller buttons are available to your module (indicated by Thumb Controller Type). _Select_ is always available. _Up_ and _Down_ are always available, if [E-Bike drive control is disabled](https://cobi-bike.github.io/COBI.js/#cobidevkitoverridethumbcontrollermappingwrite) by your module. _Left_ and _Right_ are always available on the 6-Button COBI Thumb Controller and Bosch Nyon remote.
 
-### Plan, Ride, Advise
+### Plan, Ride, Configure, Advise
 
-COBI modules support planning & riding scenarios to keep interaction-heavy planning/configuration tasks separate from the clean, simplistic riding interface. We call the former scenario _Plan_ and the latter _Experience_.
+COBI modules support planning & riding scenarios to keep interaction-heavy planning/configuration tasks separate from the clean, simplistic riding interface. We call the former scenario _Overview_ and the latter _Experience_.
 
 Modules are expected to support the following view states:
 
