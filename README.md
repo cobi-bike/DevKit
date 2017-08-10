@@ -1,24 +1,22 @@
 # COBI DevKit
 
-A Javascript library for developing WebApps for [COBI](cobi.bike), the first smart connected biking system.
+A Javascript library for developing modules for [COBI](cobi.bike) – the perfect fusion of smartphone and bike.
 
 ## Getting Started
 
-To start developing webapps you would need to add the `COBI.js` library at the end of the body section of your HTML as shown below
+To start developing modules you need to add the `COBI.js` library at the end of the body section of your HTML as shown below
 ```html
 <script src="https://cdn.cobi.bike/cobi.js/latest/cobi.js"></script>
 ```
+... and provide an authentication token back to the COBI app before subscribing to the data stream. See [details](https://cobi-bike.github.io/COBI.js/#COBI.init).
 
-To start developing webapps for COBI you need:
-1. To register as a developer in [my.cobi.bike](https://my.cobi.bike).
-
-2. To provide an Authentication token back to the native app at the beginning of your app. See [details](https://cobi-bike.github.io/COBI.js/#COBI.init).
+To test your own module with the COBI system on your bike you need to register as a developer at [my.cobi.bike](https://my.cobi.bike).
 
 ## Usage
 
 ```javascript
 
-// authenticate your app
+// authenticate your module
 COBI.init('YOUR API KEY')
 
 // Subscribe to 'location' event to receive updates on the current location
@@ -38,18 +36,18 @@ COBI.intelligenceService.heartRate.read(function(heartrate) {
 });
 ```
 
-You can find some examples apps in the [examples](examples) directory.
+You can find some example modules in the [examples](examples) directory.
 
 An overview of the COBI.js architecture can be found [here](COBI.js-architecture.png)
 
 ## Interface Guidelines
 
-Check out our [Interface Guidelines](interface-guidelines.md) to understand more about the COBI system and how WebApps work and interact with the COBI app.
+Check out our [Interface Guidelines](interface-guidelines.md) to understand more about the COBI system and how modules work and interact with the COBI app.
 
 ## More information
 
 - [FAQ](FAQ.md)
-- [forums](forums.cobi.bike)
+- [forums](https://forums.cobi.bike)
 - [COBI.js docs](https://cobi-bike.github.io/COBI.js/)
 - [COBI.js Simulator](https://github.com/cobi-bike/COBI.js-simulator)
 
