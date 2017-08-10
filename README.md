@@ -10,7 +10,9 @@ To start developing modules you need to add the `COBI.js` library at the end of 
 ```
 ... and provide an authentication token back to the COBI app before subscribing to the data stream. See [details](https://cobi-bike.github.io/COBI.js/#COBI.init).
 
-To test your own module with the COBI system on your bike you need to register as a developer at [my.cobi.bike](https://my.cobi.bike).
+To test your COBI module you have two options:
+* Install our [COBI.js Simulator](https://github.com/cobi-bike/COBI.js-simulator) Chrome Extension and test in the browser
+* Load your module within the COBI app and take a testride on your bike (requires registration as a developer at [my.cobi.bike](https://my.cobi.bike)).
 
 ## Usage
 
