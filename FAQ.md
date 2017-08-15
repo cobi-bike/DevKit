@@ -6,7 +6,7 @@ No, you can get started for free with the [COBI.js Simulator](https://github.com
 
 #### What skills are required to build COBI modules?
 
-If you have some baseline experience with HTML, CSS, Javascript you are good to go. You can turn any of your existing webapps into a COBI modules with a few lines of code.
+If you have some baseline experience with HTML, CSS, Javascript you are good to go. You can turn any of your existing webapps into a COBI module with a few lines of javascript.
 
 #### How can I turn my website / webapp into a COBI module?
 
