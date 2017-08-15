@@ -17,7 +17,7 @@ The following url provides `0.34.0` of COBI.js: *https://cdn.cobi.bike/cobi.js/0
 
 #### How can I share my module with others?
 
-For now, you can share your work (screenshots, url) with other COBI developers in the (COBI Developer Showtime forum)[https://forums.cobi.bike/c/showtime].
+For now, you can share your work (screenshots, url) with other COBI developers in the [COBI Developer Showtime forum](https://forums.cobi.bike/c/showtime).
 
 #### When and how can I make my module available to COBI users later?
 We are in the process of defining distribution mechanisms which are planned to ship in 2018. In the meantime, COBI DevKit enables you to figure out if your idea has legs and what features work best in a biking context. Make sure you comply with the [COBI Interface Guidelines](interface-guidelines.md) and share your results with the developer community [forums.cobi.bike](https://forums.cobi.bike). We'll announce distribution mechanisms to end-users later.
