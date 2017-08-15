@@ -2,7 +2,7 @@
 
 ### Do I need to purchase a COBI system to start building a module?
 
-No, you can get started for free with the [COBI.js Simulator](https://github.com/cobi-bike/COBI.js-simulator) and test on a COBI system when you're ready. If you don't have a COBI system yet, you can purchase a Developer Edition on [my.cobi.bike](https://my.cobi.bike) or use any other [COBI system](https://get.cobi.bike).
+No, you can get started for free with the [COBI.js Simulator](https://github.com/cobi-bike/COBI.js-simulator) and test on a COBI system when you're ready. If you don't have a COBI system yet, you can purchase a Developer Edition on [my.cobi.bike](https://my.cobi.bike) or any other [COBI system](https://get.cobi.bike).
 
 ### What skills are required to build COBI modules?
 
