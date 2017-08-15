@@ -1,4 +1,4 @@
-## Technical Questions
+## Technical FAQ
 
 #### I'm using the `subscribe` method, but I don't receive any data
 
@@ -14,7 +14,7 @@ The native app will display javascript errors in a dialog.
 The following url provides `0.34.0` of COBI.js: *https://cdn.cobi.bike/cobi.js/0.34.0/cobi.js*. 
 This will work for any other published version.
 
-## Distribution / Business Model Questions
+## Distribution / Business Model FAQ
 
 #### How can I share my module with others?
 
