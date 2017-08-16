@@ -52,10 +52,8 @@ COBI.rideService.cadence.subscribe(function(cadence) {
 
 ### Step 3: Testing
 
-COBI modules can be previewed in the brower, but to 
-
-To see your COBI module in action you have two options:
-* Install our [COBI DevKit Chrome Extension](https://chrome.google.com/webstore/detail/cobi-devkit-simulator/hpdhkapigojggienmiejhblkhenjdbno) and test in the browser. To simulate riding & fitness data you can play back one of our sample cobitrack files.
+As any type of web app COBI modules can be viewed by modern web browsers. However, in order to receive data via COBI.js we need an input data source – currently there are two options:
+* Install our [COBI DevKit Chrome Extension](https://chrome.google.com/webstore/detail/cobi-devkit-simulator/hpdhkapigojggienmiejhblkhenjdbno) and test in the browser with simulated data sources. To simulate riding & fitness data you can play back one of our sample cobitrack or GPX files.
 * Enter the URL to your COBI module in our iOS app and take a testride on your bike. Requires registration as a developer on [my.cobi.bike](https://my.cobi.bike) and a [COBI system](https://get.cobi.bike) (Developer Editions can be ordered from [my.cobi.bike](https://my.cobi.bike)).
 
 ## Everything I need to know about the COBI DevKit
