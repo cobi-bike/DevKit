@@ -4,7 +4,8 @@ A collection of Open Source components to develop modules for [COBI](cobi.bike) 
 
 ## Quickstart with just a few clicks
 
-The quickest way to get started:
+Here's the quickest way to start without writing any code:
+
 1. Launch [Chrome](https://chrome.com) and install the [COBI DevKit Chrome Extension](https://chrome.google.com/webstore/detail/cobi-devkit-simulator/hpdhkapigojggienmiejhblkhenjdbno)
 2. Open our [example module](https://codepen.io) on [codepen.io](https://codepen.io)
 3. Open the [COBI DevKit Chrome Extension](https://chrome.google.com/webstore/detail/cobi-devkit-simulator/hpdhkapigojggienmiejhblkhenjdbno) alongside the [example module](https://codepen.io) in your Chrome browser window
