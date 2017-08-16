@@ -2,16 +2,16 @@
 
 A collection of Open Source components to develop modules for [COBI](cobi.bike) – the perfect fusion of smartphone and bike.
 
-## Quickstart with just a few clicks
+## Interactive demo to learn the basics
 
-Here's the quickest way to start without writing any code:
+Here's the quickest way to learn the COBI DevKit principle without writing any code:
 
-1. Launch [Chrome](https://chrome.com) and install the [COBI DevKit Chrome Extension](https://chrome.google.com/webstore/detail/cobi-devkit-simulator/hpdhkapigojggienmiejhblkhenjdbno)
-2. Open our [example module](https://codepen.io) on [codepen.io](https://codepen.io)
-3. Open the [COBI DevKit Chrome Extension](https://chrome.google.com/webstore/detail/cobi-devkit-simulator/hpdhkapigojggienmiejhblkhenjdbno) alongside the [example module](https://codepen.io) in your Chrome browser window
-4. Change location or destination coordinates and hit the thumb controller buttons to see COBI.js in action
+1. Launch [Google Chrome](https://chrome.com) and install the [COBI DevKit Chrome Extension](https://chrome.google.com/webstore/detail/cobi-devkit-simulator/hpdhkapigojggienmiejhblkhenjdbno)
+2. Navigate to our [example module](https://codepen.io) on [codepen.io](https://codepen.io)
+3. Open the [COBI DevKit Chrome Extension](https://chrome.google.com/webstore/detail/cobi-devkit-simulator/hpdhkapigojggienmiejhblkhenjdbno) alongside the example in your Chrome browser window
+4. In the DevKit Extension, change location coordinates and hit thumb controller buttons to see COBI.js in action. This simulates data that will later be provided by the COBI app to your module when riding on a bike.
 
-Bonus points for directly tweaking the code e.g. subscribing to additional data from the COBI.js data stream or adding fancy visualizations.
+Bonus points for directly tweaking the code e.g. subscribing to additional data from the COBI.js data stream or adding fancy visualizations!
 
 ## Getting started with a new project
 
