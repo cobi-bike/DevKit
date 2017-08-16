@@ -9,7 +9,7 @@ Here's the quickest way to learn the COBI DevKit principle without writing any c
 1. Launch [Google Chrome](https://chrome.com) and install the [COBI DevKit Chrome Extension](https://chrome.google.com/webstore/detail/cobi-devkit-simulator/hpdhkapigojggienmiejhblkhenjdbno)
 2. Navigate to our [example module](https://codepen.io) on [codepen.io](https://codepen.io)
 3. Open the [COBI DevKit Chrome Extension](https://chrome.google.com/webstore/detail/cobi-devkit-simulator/hpdhkapigojggienmiejhblkhenjdbno) alongside the example in your Chrome browser window
-4. In the DevKit Extension, change location coordinates and hit thumb controller buttons to see COBI.js in action. This simulates data that will later be provided by the COBI app to your module when riding on a bike.
+4. In the DevKit Extension, change location coordinates and hit thumb controller buttons to see COBI.js in action. This simulates data that will later be provided by COBI to your module when riding on a bike.
 
 Bonus points for directly tweaking the code e.g. subscribing to additional data from the COBI.js data stream or adding fancy visualizations!
 
@@ -52,18 +52,18 @@ COBI.rideService.cadence.subscribe(function(cadence) {
 
 ### Step 3: Testing
 
-As any type of web app COBI modules can be viewed by modern web browsers. However, in order to receive data via COBI.js we need an input data source – currently there are two options:
-* Install our [COBI DevKit Chrome Extension](https://chrome.google.com/webstore/detail/cobi-devkit-simulator/hpdhkapigojggienmiejhblkhenjdbno) and test in the browser with simulated data sources. To simulate riding & fitness data you can play back one of our sample cobitrack or GPX files.
-* Enter the URL to your COBI module in our iOS app and take a testride on your bike. Requires registration as a developer on [my.cobi.bike](https://my.cobi.bike) and a [COBI system](https://get.cobi.bike) (Developer Editions can be ordered from [my.cobi.bike](https://my.cobi.bike)).
+COBI modules (a fancy name for web apps with COBI.js) can be viewed by modern web browsers. However, in order to receive data via COBI.js we need an input data source – currently there are two options:
+1. In a browser: Install our [COBI DevKit Chrome Extension](https://chrome.google.com/webstore/detail/cobi-devkit-simulator/hpdhkapigojggienmiejhblkhenjdbno) and test in the browser with simulated data sources. To simulate riding & fitness data you can play back one of our sample cobitrack or GPX files.
+2. On a bike/eBike: Enter the URL to your COBI module in our iOS app and take a testride on your bike. Requires registration as a developer on [my.cobi.bike](https://my.cobi.bike) and a [COBI system](https://get.cobi.bike) on your bike (Developer Editions can be ordered from [my.cobi.bike](https://my.cobi.bike)).
 
-## Everything I need to know about the COBI DevKit
+## Everything else to know about the COBI DevKit
 
 ### Inspiration & Examples 
 
 * Get inspired on the [COBI DevKit site](https://cobi.bike/devkit)
 * Take a testride with one of our example modules in the iOS app. Requires registration as a developer on [my.cobi.bike](https://my.cobi.bike)
-* You can find more code templates in the [examples](examples) directory 
-* Make sure to visit our [Showtime Developer Forum](https://forums.cobi.bike/c/showtime) for additional inspiration from other developers
+* Find more code templates in the [examples](examples) directory 
+* Visit our [Showtime Developer Forum](https://forums.cobi.bike/c/showtime) for additional inspiration from other developers
 
 ### COBI Interface Guidelines
 
@@ -84,8 +84,7 @@ Read our [Interface Guidelines](interface-guidelines.md) to understand the uniqu
 
 ## Contributing to this Project
 
-Anyone and everyone is welcome to contribute. Please take a moment to
-review the [guidelines for contributing](CONTRIBUTING.md).
+Anyone and everyone is welcome to contribute. Please take a moment to review the [guidelines for contributing](CONTRIBUTING.md).
 
 * [Bug reports](CONTRIBUTING.md#bugs)
 * [Feature requests](CONTRIBUTING.md#features)
