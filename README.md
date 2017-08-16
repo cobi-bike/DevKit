@@ -5,11 +5,12 @@ A collection of Open Source components to develop modules for [COBI](cobi.bike) 
 ## Quickstart
 
 The quickest way to get started:
-* Launch [Chrome](https://chrome.com) and install the [COBI DevKit Chrome Extension](https://chrome.google.com/webstore/detail/cobi-devkit-simulator/hpdhkapigojggienmiejhblkhenjdbno)
-* Open our [example module](https://codepen.io) on [codepen.io](https://codepen.io)
-* Open the [COBI DevKit Chrome Extension](https://chrome.google.com/webstore/detail/cobi-devkit-simulator/hpdhkapigojggienmiejhblkhenjdbno) alongside [example module](https://codepen.io) in your browser window
-* Change location or destination coordinates and hit the thumb controller buttons to see in action
-* Try tweaking the code (e.g. by subscribing to speed or [calories burned](https://cobi-bike.github.io/COBI.js/#cobitourservicecaloriesread)) and simulate data by playing back cobitrack files
+1. Launch [Chrome](https://chrome.com) and install the [COBI DevKit Chrome Extension](https://chrome.google.com/webstore/detail/cobi-devkit-simulator/hpdhkapigojggienmiejhblkhenjdbno)
+2. Open our [example module](https://codepen.io) on [codepen.io](https://codepen.io)
+3. Open the [COBI DevKit Chrome Extension](https://chrome.google.com/webstore/detail/cobi-devkit-simulator/hpdhkapigojggienmiejhblkhenjdbno) alongside [example module](https://codepen.io) in your browser window
+4. Change location or destination coordinates and hit the thumb controller buttons to see in action
+
+Bonus points for directly tweaking the code e.g. subscribing to additional data from the COBI.js data stream.
 
 ## Getting started with a new project
 
@@ -49,7 +50,7 @@ COBI.rideService.cadence.subscribe(function(cadence) {
 ### Step 3: Testing
 
 To see your COBI module in action you have two options:
-* Install our [COBI DevKit Chrome Extension](https://chrome.google.com/webstore/detail/cobi-devkit-simulator/hpdhkapigojggienmiejhblkhenjdbno) and test in the browser
+* Install our [COBI DevKit Chrome Extension](https://chrome.google.com/webstore/detail/cobi-devkit-simulator/hpdhkapigojggienmiejhblkhenjdbno) and test in the browser. To simulate riding & fitness data you can play back one of our sample cobitrack files.
 * Enter the URL to your COBI module in our iOS app and take a testride on your bike. Requires registration as a developer on [my.cobi.bike](https://my.cobi.bike) and a [COBI system](https://get.cobi.bike) (Developer Editions can be ordered from [my.cobi.bike](https://my.cobi.bike).
 
 ## Everything I need to know about the COBI DevKit
