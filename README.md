@@ -1,6 +1,6 @@
 # COBI DevKit
 
-A collection of Open Source components to develop modules for [COBI](cobi.bike) – the perfect fusion of smartphone and bike.
+A collection of Open Source components to develop [modules](https://cobi.bike/devkit) for [COBI](https://cobi.bike) – the perfect fusion of smartphone and bike.
 
 ## Interactive demo to learn the basics
 
