@@ -19,7 +19,7 @@ It only takes a few lines of javascript to turn webapps into a COBI module:
 
 ### Step 1: Add boilerplate code to your web project
 
-To get your COBI module ready just add `COBI.js` at the end of the body section of your HTML:
+To get your webapp ready just add `COBI.js` at the end of the body section of your HTML:
 ```html
 <script src="https://cdn.cobi.bike/cobi.js/0.34.0/cobi.js"></script>
 ```
