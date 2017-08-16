@@ -38,7 +38,7 @@ Enough with the boilerplate code, let's make our new COBI module responsive to t
 
 ```javascript
 COBI.hub.externalInterfaceAction.subscribe(function(action) {
-  alert("Holy moly, I just tapped the handlebar remote and instantly received this " + action + " in my web app");
+  alert('Holy moly, I just tapped the handlebar remote and instantly received this ' + action + ' in my web app');
 });
 ```
 
