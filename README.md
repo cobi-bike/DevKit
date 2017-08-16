@@ -15,11 +15,11 @@ Bonus points for directly tweaking the code e.g. subscribing to additional data 
 
 ## Getting started with a new project
 
-It only takes a few lines of javascript to turn webapps into a COBI module:
+It only takes a few lines of javascript to turn web apps into a COBI module:
 
 ### Step 1: Add boilerplate code to your web project
 
-To get your webapp ready just add `COBI.js` at the end of the body section of your HTML:
+To get your web app ready just add `COBI.js` at the end of the body section of your HTML:
 ```html
 <script src="https://cdn.cobi.bike/cobi.js/0.34.0/cobi.js"></script>
 ```
@@ -30,7 +30,7 @@ To get your webapp ready just add `COBI.js` at the end of the body section of yo
 COBI.init('my-token')
 ```
 
-It's that easy: Any Webapp + COBI.js = COBI module!
+It's that easy: Any web app + COBI.js = COBI module!
 
 ### Step 2: Hook into the COBI.js data stream
 
@@ -38,7 +38,7 @@ Enough with the boilerplate code, let's make our new COBI module responsive to t
 
 ```javascript
 COBI.hub.externalInterfaceAction.subscribe(function(action) {
-  alert("Holy moly, I just tapped the handlebar remote and instantly received this " + action + " in my webapp");
+  alert("Holy moly, I just tapped the handlebar remote and instantly received this " + action + " in my web app");
 });
 ```
 
