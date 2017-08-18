@@ -13,7 +13,7 @@ Here's the quickest way to learn the COBI DevKit principle without writing any c
 
 Bonus points for directly tweaking the code e.g. subscribing to additional data from the COBI.js data stream or adding fancy visualizations!
 
-## Getting started with a new project
+## Let's get started with your first project
 
 It only takes a few lines of javascript to turn web apps into a COBI module:
 
