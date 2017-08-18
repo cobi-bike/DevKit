@@ -60,25 +60,25 @@ COBI modules (a fancy name for web apps with COBI.js) can be viewed by modern we
 
 ## Play Ping-Pong with the COBI App
 
-Take advantage of interfaces to the native COBI app to safe yourself a lot of work:
+Take advantage of interfaces to the native COBI app to safe yourself a lot of work.
 
-* Start a turn-by-turn navigation to a destination:
+Start a turn-by-turn navigation to a destination:
 ```javascript
 COBI.navigationService.control.write({'action': 'START', 'destination': {'latitude': 50.110924,'longitude': 8.682127}})
 ```
-* Open a phone number picker with the list of contacts:
+Open a phone number picker with the list of contacts:
 ```javascript
 COBI.app.contact.read()
 ```
-* Hook into the voice feedback system:
+Hook into the voice feedback system:
 ```javascript
 COBI.app.textToSpeech.write({'content' : 'Can you hear my voice?', 'language' : 'en-US'})
 ```
-* Claim the entire screen space by hiding the clock in the top right corner:
+Claim the entire screen space by hiding the clock in the top right corner:
 ```javascript
 COBI.app.clockVisible.write(false);
 ```
-* Claim all Thumb Controller buttons on eBikes that are reserved for motor control by default:
+Claim all Thumb Controller buttons on eBikes that are reserved for motor control by default:
 ```javascript
 COBI.devkit.overrideThumbControllerMapping.write(true);
 ```
