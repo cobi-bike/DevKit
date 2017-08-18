@@ -34,7 +34,7 @@ It's that easy: Any web app + COBI.js = COBI module!
 
 ### Step 2: Hook into the COBI.js data stream
 
-Enough with the boilerplate code, let's make our new COBI module responsive to the handlebar remote control:
+Enough with the boilerplate code, let's make our new COBI module respond to the handlebar remote control:
 
 ```javascript
 COBI.hub.externalInterfaceAction.subscribe(function(action) {
