@@ -2,7 +2,7 @@
 
 A collection of Open Source components to develop [modules](https://cobi.bike/devkit) for [COBI](https://cobi.bike) – the perfect fusion of smartphone and bike.
 
-## Interactive demo to learn the basics
+## Interactive Demo: Learn the basics
 
 Here's the quickest way to learn the COBI DevKit principle without writing any code:
 
@@ -62,23 +62,23 @@ COBI modules (a fancy name for web apps with COBI.js) can be viewed by modern we
 
 Take advantage of interfaces to the native COBI app to safe yourself a lot of work.
 
-Start a turn-by-turn navigation to a destination:
+#### Start a turn-by-turn navigation to a destination:
 ```javascript
 COBI.navigationService.control.write({'action': 'START', 'destination': {'latitude': 50.110924,'longitude': 8.682127}})
 ```
-Open a phone number picker with the list of contacts:
+#### Open a phone number picker with the list of contacts:
 ```javascript
 COBI.app.contact.read()
 ```
-Hook into the voice feedback system:
+#### Hook into the voice feedback system:
 ```javascript
 COBI.app.textToSpeech.write({'content' : 'Can you hear my voice?', 'language' : 'en-US'})
 ```
-Claim the entire screen space by hiding the clock in the top right corner:
+#### Claim the entire screen space by hiding the clock in the top right corner:
 ```javascript
 COBI.app.clockVisible.write(false);
 ```
-Claim all Thumb Controller buttons on eBikes that are reserved for motor control by default:
+#### Claim all Thumb Controller buttons on eBikes that are reserved for motor control by default:
 ```javascript
 COBI.devkit.overrideThumbControllerMapping.write(true);
 ```
