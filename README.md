@@ -56,7 +56,7 @@ COBI modules (a fancy name for web apps with COBI.js) can be viewed by modern we
 1. Test in the browser: Install our [COBI DevKit Chrome Extension](https://chrome.google.com/webstore/detail/cobi-devkit-simulator/hpdhkapigojggienmiejhblkhenjdbno) and test in the browser with simulated data sources. To simulate riding & fitness data you can play back one of our sample cobitrack or GPX files.
 2. Test on the bike/eBike: Enter the URL to your COBI module in our iOS app and take a testride on your bike. Requires registration as a developer on [my.cobi.bike](https://my.cobi.bike) and a [COBI system](https://get.cobi.bike) on your bike (Developer Editions can be ordered from [my.cobi.bike](https://my.cobi.bike)).
 
-## Play one-two with the COBI App
+## Play Ping-Pong with the COBI App
 
 Take advantage of interfaces to the native COBI app to safe yourself a lot of work:
 
