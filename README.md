@@ -50,6 +50,8 @@ COBI.rideService.cadence.subscribe(function(cadence) {
 });
 ```
 
+There is a ton of more data available like current speed, course, heart-rate (if heart-rate monitor is connected), power, calories burned and much more. Our [COBI.js reference](https://cobi-bike.github.io/COBI.js/) will be your friend.
+
 ### Step 3: Testing
 
 COBI modules (a fancy name for web apps with COBI.js) can be viewed by modern web browsers. However, in order to receive data via COBI.js we need an input data source – currently there are two options:
