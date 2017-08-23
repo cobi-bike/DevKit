@@ -50,7 +50,7 @@ COBI.rideService.cadence.subscribe(function(cadence) {
 });
 ```
 
-There is a ton of more data available like current speed, course, heart-rate (if heart-rate monitor is connected), power, calories burned and much more. Our [COBI.js reference](https://cobi-bike.github.io/COBI.js/) will be your friend.
+There is a ton of data available such as current speed, course, heart-rate (if heart-rate monitor is connected), power, calories burned and much more. Our [COBI.js reference](https://cobi-bike.github.io/COBI.js/) will be your friend.
 
 ### Step 3: Testing
 
@@ -58,9 +58,9 @@ COBI modules (a fancy name for web apps with COBI.js) can be viewed by modern we
 1. Test in the browser: Install our [COBI DevKit Chrome Extension](https://chrome.google.com/webstore/detail/cobi-devkit-simulator/hpdhkapigojggienmiejhblkhenjdbno) and test in the browser with simulated data sources. To simulate riding & fitness data you can play back one of our sample cobitrack or GPX files.
 2. Test on the bike/eBike: Enter the URL to your COBI module in our iOS app and take a testride on your bike. Requires registration as a developer on [my.cobi.bike](https://my.cobi.bike) and a [COBI system](https://get.cobi.bike) on your bike (Developer Editions can be ordered from [my.cobi.bike](https://my.cobi.bike)).
 
-## Play Ping-Pong with the COBI App
+## Play ping-pong with the COBI App
 
-Take advantage of interfaces to the native COBI app to safe yourself a lot of work.
+Take advantage of interfaces to the native COBI app to save yourself a lot of work.
 
 #### Start a turn-by-turn navigation to a destination:
 ```javascript
@@ -85,7 +85,7 @@ COBI.devkit.overrideThumbControllerMapping.write(true);
 
 Check out the [COBI.js reference](https://cobi-bike.github.io/COBI.js/) for more.
 
-## Everything else to know about the COBI DevKit
+## Everything else about the COBI DevKit
 
 ### Inspiration & Examples 
 
@@ -111,7 +111,7 @@ Read our [Interface Guidelines](interface-guidelines.md) to understand the uniqu
 - [glitch](https://glitch.com/) – friendly community where you'll build the app of your dreams
 - [codepen](https://codepen.io/) – social development environment for front-end designers and developers
 
-## Contributing to this Project
+## Contributing to this project
 
 Anyone and everyone is welcome to contribute. Please take a moment to review the [guidelines for contributing](CONTRIBUTING.md).
 
