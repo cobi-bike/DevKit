@@ -46,7 +46,7 @@ COBI.hub.externalInterfaceAction.subscribe(function(action) {
 
 ```javascript
 COBI.rideService.cadence.subscribe(function(cadence) {
-    $('#cadence').html(`Your current cadence is ${cadence} rpm.`);
+    console.log('Your current cadence is ' + cadence + '} rpm.');
 });
 ```
 
