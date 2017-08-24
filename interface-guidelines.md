@@ -43,15 +43,15 @@ COBI modules support planning & riding scenarios to keep touch interaction-heavy
 
 Modules are expected to support the following view states:
 
-**»Experience«** (_Landscape orientation only, **mandatory**_)
+**1. Experience** (_Landscape orientation only, **mandatory**_)
 
 The main user interface for cyclists on the road. Optimized for use with thumb controller and touch – depending on whether the touch interface is enabled.
 
-**»Edit«** (_Portrait & Landscape orientation, **mandatory**_)
+**2. Edit** (_Portrait & Landscape orientation, **mandatory**_)
 
 Touch-only interface available before and during the ride to tweak module-specific settings.
 
-**»Overview«** (_Portrait orientation only, **optional, available later**_)
+**3. Overview** (_Portrait orientation only, **optional, available later**_)
 
 Touch-only interface on the home screen available before the ride. Often a slight variation of »Experience« optimized for portrait orientation and touch.
 
