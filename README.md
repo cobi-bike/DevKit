@@ -104,14 +104,15 @@ Read our [Interface Guidelines](interface-guidelines.md) to understand the uniqu
 
 - [FAQ](FAQ.md)
 - [Developer Forums](https://forums.cobi.bike)
-- [COBI DevKit Chrome Extension](https://github.com/cobi-bike/COBI.js-simulator)
+- [COBI DevKit Chrome Extension on Chrome Web Store](https://chrome.google.com/webstore/detail/cobi-devkit-simulator/hpdhkapigojggienmiejhblkhenjdbno)
+- [COBI DevKit Chrome Extension on Github](https://github.com/cobi-bike/COBI.js-simulator)
 - [COBI.js reference](https://cobi-bike.github.io/COBI.js/)
 - [COBI.js architecture](COBI.js-architecture.png)
 
 ### Other Tools & Resources
 
-- [glitch](https://glitch.com/) – friendly community where you'll build the app of your dreams
-- [codepen](https://codepen.io/) – social development environment for front-end designers and developers
+- [Glitch](https://glitch.com/) – friendly community where you'll build the app of your dreams
+- [CodePen](https://codepen.io/) – social development environment for front-end designers and developers
 
 ## Contributing to this project
 
