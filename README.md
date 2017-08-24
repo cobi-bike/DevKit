@@ -87,6 +87,12 @@ COBI.devkit.overrideThumbControllerMapping.write(true);
 
 Check out the [COBI.js reference](https://cobi-bike.github.io/COBI.js/) for more.
 
+## Settings for your Module
+
+[Explain states]
+
+Hint: Take a look at our [COBI Modules UI Components](https://github.com/cobi-bike/Modules-UI) for an easy way to create a UI for your settings.
+
 ## Everything else about the COBI DevKit
 
 ### Inspiration & Examples 
