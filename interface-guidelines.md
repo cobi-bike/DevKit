@@ -1,6 +1,6 @@
 # Interface Guidelines for COBI Modules
 
-The COBI DevKit is the world's first platform that offers everything you need to easily design & build interactive experiences for riding on a bike. The COBI hardware and software takes away all the hard work (e.g. securely mounting and powering the phone, remote control, acquiring sensor-, eBike- and riding data) so that developers can fully focus on bringing new experiences to life with a stream of riding data and a fullscreen canvas embedded in the COBI dashboard:
+The COBI DevKit is the world's first platform that offers everything you need to easily design & build interactive experiences for riding a bike. The COBI hardware and software takes away all the hard work (e.g. securely mounting and powering the phone, remote control, acquiring sensor-, eBike- and riding data) so that developers can fully focus on bringing new experiences to life with a stream of riding data and a fullscreen canvas embedded in the COBI dashboard:
 
 Introducing _COBI Modules_.
 
@@ -14,8 +14,8 @@ COBI enables developers to design interactive modules that are loved by users wh
 * Cyclists concerned about battery life may turn the display off temporarily while riding. With COBI the remote control and voice feedback are still available to perform basic interactions and receive feedback.
 * Picture the cyclist with hands on the handlebars & eyes on the road while riding. A module must not disturb the riders' focus on traffic and the road ahead. However, the module may provide guidance through voice feedback or glanceable visual hints – any feedback beyond that must be queued for later.
 * The cyclist may take short breaks e.g. at traffic lights. Since COBI detects these breaks automatically you can take advantage of them easily and adapt your user interface to accept touch input, allow on-screen keyboards and show more elaborate information that has been queued up during the ride.
-* COBI supports both Bikes & E-Bikes, External Sensors (e.g. Cadence & Heart Rate), 4- and 6-Button Thumb Controllers. Make sure to support these configurations to maximize the audience and make the most of the experience of using your module. Our [COBI Simulator](https://github.com/cobi-bike/COBI.js-simulator) makes that easy to test.
-* Keep in mind that the phone is mounted on the handlebars and the viewing distance is larger compared to holding it in your hand.
+* COBI supports both Bikes & E-Bikes, External Sensors (e.g. Cadence & Heart Rate), 4- and 6-Button Thumb Controllers. Be sure to support these configurations to maximize the audience and make the most of the experience of using your module. Our [COBI Simulator](https://github.com/cobi-bike/COBI.js-simulator) makes that easy to test.
+* Keep in mind that the phone is mounted on the handlebars and the viewing distance is further compared to holding it in your hand.
 
 ## Guiding Principles
 
@@ -33,35 +33,30 @@ COBI enables developers to design interactive modules that are loved by users wh
 ### The screen is optional: Remote Control, Touch & Voice Feedback
 
 * Make the most relevant interactions accessible via Thumb Controller taps while riding.
-* Bring in touch and more sophisticated interactions whenever the bike doesn't move.
+* Bring in touch and more sophisticated interactions whenever the bike isn't moving.
 * Take advantage of voice feedback to enable users to perform actions in your module without looking at the screen.
 * Depending on the bike different Thumb Controller buttons are available to your module (indicated by Thumb Controller Type). _Select_ is always available. _Up_ and _Down_ are always available, if [E-Bike drive control is disabled](https://cobi-bike.github.io/COBI.js/#cobidevkitoverridethumbcontrollermappingwrite) by your module. _Left_ and _Right_ are always available on the 6-Button COBI Thumb Controller and Bosch Nyon remote.
 
-### Plan, Ride, Configure, Advise
+### Plan, Ride, Configure
 
-COBI modules support planning & riding scenarios to keep interaction-heavy planning/configuration tasks separate from the clean, simplistic riding interface. We call the former scenario _Overview_ and the latter _Experience_.
+COBI modules support planning & riding scenarios to keep touch interaction-heavy tasks separate from the clean, simplistic riding interface. We call the former scenario »Overview« and the latter »Experience«.
 
 Modules are expected to support the following view states:
 
-#### State 1: Overview (Portrait orientation, optional)
-
-Touch-only interface on the home screen available before the ride.
-
-#### State 2: Experience (Landscape orientation, mandatory)
+#### »Experience« 
+_Landscape orientation only, **mandatory**_
 
 The main user interface for cyclists on the road. Optimized for use with thumb controller and touch – depending on whether the touch interface is enabled.
 
-#### State 3: Settings (Portrait & Landscape orientation)
+#### »Edit« 
+_Portrait & Landscape orientation, **mandatory**_
 
-Touch-only interface available before and during the ride to tweak module-specific settings
+Touch-only interface available before and during the ride to tweak module-specific settings.
 
-#### State 4: Manual (Portrait & Landscape orientation)
+#### »Overview« 
+_Portrait orientation only, **optional, available later**_
 
-Touch-only interface to learn more about how to use your module.
-
-#### Data Stream
-
-Once loaded, COBI will start feeding riding data (location, speed, fitness data, thumb controller events, etc.) via COBI.js to your module. On closing the module, the data stream will stop and all scripts will be unloaded.
+Touch-only interface on the home screen available before the ride. Often a slight variation of »Experience« optimized for portrait orientation and touch.
 
 ### Offline first
 
