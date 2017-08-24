@@ -9,7 +9,7 @@ A collection of Open Source components to develop [modules](https://cobi.bike/de
 Here's the quickest way to learn the COBI DevKit principle without writing any code:
 
 1. Install the [COBI DevKit Chrome Extension](https://chrome.google.com/webstore/detail/cobi-devkit-simulator/hpdhkapigojggienmiejhblkhenjdbno)
-2. Navigate to our [interactive demo](https://codepen.io) on [codepen.io](https://codepen.io)
+2. Navigate to our [interactive demo](https://codepen.io) on codepen.io
 3. Open the [COBI DevKit Chrome Extension](https://chrome.google.com/webstore/detail/cobi-devkit-simulator/hpdhkapigojggienmiejhblkhenjdbno) alongside the example in your Chrome browser window
 4. Change location coordinates and hit thumb controller buttons to see COBI.js in action. This simulates data and interaction events that will later be provided by the COBI system when riding on a bike.
 
