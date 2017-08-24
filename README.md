@@ -2,18 +2,18 @@
 
 A collection of Open Source components to develop [modules](https://cobi.bike/devkit) for [COBI](https://cobi.bike) – the perfect fusion of smartphone and bike.
 
-## Interactive Demo: Learn the basics
+## Interactive Demo: Learn the fundamentals 💡
 
 Here's the quickest way to learn the COBI DevKit principle without writing any code:
 
 1. Launch [Google Chrome](https://chrome.com) and install the [COBI DevKit Chrome Extension](https://chrome.google.com/webstore/detail/cobi-devkit-simulator/hpdhkapigojggienmiejhblkhenjdbno)
 2. Navigate to our [example module](https://codepen.io) on [codepen.io](https://codepen.io)
 3. Open the [COBI DevKit Chrome Extension](https://chrome.google.com/webstore/detail/cobi-devkit-simulator/hpdhkapigojggienmiejhblkhenjdbno) alongside the example in your Chrome browser window
-4. In the DevKit Extension, change location coordinates and hit thumb controller buttons to see COBI.js in action. This simulates data that will later be provided by COBI to your module when riding on a bike.
+4. In the DevKit Extension, change location coordinates and hit thumb controller buttons to see COBI.js in action. This simulates data and interaction events that will later be provided by the COBI system when riding on a bike.
 
-Bonus points for directly tweaking the code e.g. subscribing to additional data from the COBI.js data stream or adding fancy visualizations!
+Bonus points for directly tweaking the code e.g. subscribing to additional data from the COBI.js data stream.
 
-## Let's get started with your first project
+## Let's get started with your first project 🚀
 
 It only takes a few lines of javascript to turn web apps into a COBI module:
 
@@ -58,7 +58,7 @@ COBI modules (a fancy name for web apps with COBI.js) can be viewed by modern we
 1. Test in the browser: Install our [COBI DevKit Chrome Extension](https://chrome.google.com/webstore/detail/cobi-devkit-simulator/hpdhkapigojggienmiejhblkhenjdbno) and test in the browser with simulated data sources. To simulate riding & fitness data you can play back one of our sample cobitrack or GPX files.
 2. Test on the bike/eBike: Enter the URL to your COBI module in our iOS app and take a testride on your bike. Requires registration as a developer on [my.cobi.bike](https://my.cobi.bike) and a [COBI system](https://get.cobi.bike) on your bike (Developer Editions can be ordered from [my.cobi.bike](https://my.cobi.bike)).
 
-## Play ping-pong with the COBI App
+## Play ping-pong with the COBI App 🏓
 
 Take advantage of interfaces to the native COBI app to save yourself a lot of work.
 
