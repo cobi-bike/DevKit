@@ -39,7 +39,7 @@ COBI enables developers to design interactive modules that are loved by users wh
 
 ### Plan, Ride, Configure
 
-COBI modules support planning & riding scenarios to keep touch interaction-heavy tasks separate from the clean, simplistic riding interface. We call the former scenario »Overview« and the latter »Experience«.
+COBI modules support different contexts to keep touch interaction-heavy tasks separate from the clean, simplistic riding interface. We call the former scenario »Edit« and the latter »Experience«.
 
 Modules are expected to support the following view states:
 
