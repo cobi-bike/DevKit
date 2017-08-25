@@ -7,7 +7,7 @@
 * Baseline skills in modern web development
 * [COBI DevKit Simulator](https://github.com/cobi-bike/COBI.js-simulator)
 
-You can turn any of your existing webapps into a COBI module with a few lines of javascript.
+You can turn any of your existing Web Apps into a COBI module with a few extra lines of javascript.
 
 #### 2. To test your COBI Module on a bike or eBike:
 
