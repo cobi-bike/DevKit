@@ -16,7 +16,7 @@ To test your COBI Module on a bike or eBike:
 
 ### Do I need to purchase a COBI system to start building a module?
 
-No, you can get started for free with the [COBI.js Simulator](https://github.com/cobi-bike/COBI.js-simulator) and test on a COBI system when you're ready. If you don't have a COBI system yet, you can purchase a Developer Edition on [my.cobi.bike](https://my.cobi.bike) or any other [COBI system](https://get.cobi.bike).
+No, you can get started for free with the [COBI DevKit Simulator](https://github.com/cobi-bike/COBI.js-simulator) and test on a COBI system when you're ready. If you don't have a COBI system yet, you can purchase a Developer Edition on [my.cobi.bike](https://my.cobi.bike) or any other [COBI system](https://get.cobi.bike).
 
 ### What skills are required to build COBI modules?
 
@@ -24,11 +24,11 @@ If you have some baseline experience with HTML, CSS, Javascript you are good to 
 
 ### How can I turn my website / webapp into a COBI module?
 
-Include COBI.js in your javascript and start receiving riding data and remote control events.
+Include COBI.js in your html and start subscribing to riding data and remote control events.
 
 ### Can you recommend any additional development tools / platforms to build COBI modules?
 
-We like getting inspired on [codepen.io](https://codepen.io) and building prototypes on [glitch.me](https://glitch.me). Both work great with the [COBI.js Simulator](https://github.com/cobi-bike/COBI.js-simulator).
+We like getting inspired on [codepen.io](https://codepen.io) and building prototypes on [glitch.me](https://glitch.me). Both work great with the [COBI DevKit Simulator](https://github.com/cobi-bike/COBI.js-simulator).
 
 ## Technical FAQ
 
@@ -41,7 +41,7 @@ Did you already sign up as a COBI Developer on [my.cobi.bike](https://my.cobi.bi
 Make sure to authenticate your module first – to do so call
 `COBI.init("YOUR-TOKEN")` before you subscribe to any COBI.js data stream.
 
-### Any tipps for debugging my module within the COBI app on the phone?
+### Any tips for debugging my module within the COBI app on the phone?
 
 The native app will display javascript errors in a dialog.
 
