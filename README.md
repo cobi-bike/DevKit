@@ -17,7 +17,7 @@ Bonus points for directly tweaking the code e.g. subscribing to additional data 
 
 ## Let's get started with your first project 🚀
 
-It only takes a few lines of javascript to turn web-apps into a COBI module:
+It only takes a few lines of javascript to turn Web Apps into a COBI module:
 
 ### Step 1: Add boilerplate code to your web project
 
@@ -56,7 +56,7 @@ There is a ton of data available such as current speed, course, heart-rate (if h
 
 ### Step 3: Testing
 
-COBI Modules (as you know: a fancy name for web-apps with COBI.js) can be viewed by modern web browsers. However, in order to receive data via COBI.js we need an input data source – currently there are two options:
+COBI Modules (as you know: a fancy name for Web Apps with COBI.js) can be viewed by modern web browsers. However, in order to receive data via COBI.js we need an input data source – currently there are two options:
 1. Test in the browser: Install our [COBI DevKit Chrome Extension](https://chrome.google.com/webstore/detail/cobi-devkit-simulator/hpdhkapigojggienmiejhblkhenjdbno) and test in the browser with simulated data sources. To simulate riding & fitness data you can play back one of our sample cobitrack or GPX files.
 2. Test on the bike/eBike: Enter the URL to your COBI module in our iOS app and take a testride on your bike. Requires registration as a developer on [my.cobi.bike](https://my.cobi.bike) and a [COBI system](https://get.cobi.bike) on your bike (Developer Editions can be ordered from [my.cobi.bike](https://my.cobi.bike)).
 
@@ -87,13 +87,13 @@ COBI.devkit.overrideThumbControllerMapping.write(true);
 
 Check out the [COBI.js reference](https://cobi-bike.github.io/COBI.js/) for more.
 
-## Settings for your Module
+## Settings for your Module 🎛
 
 [Explain states]
 
 Hint: Take a look at our [COBI Modules UI Components](https://github.com/cobi-bike/Modules-UI) for an easy way to create a UI for your settings.
 
-## Everything else about the COBI DevKit
+## Everything else about the COBI DevKit 🌈
 
 ### Inspiration & Examples 
 
