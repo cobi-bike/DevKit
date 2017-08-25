@@ -9,7 +9,7 @@ A collection of Open Source components to develop [modules](https://cobi.bike/de
 Here's the quickest way to learn the COBI DevKit basics without writing any code:
 
 1. Install the [COBI DevKit Chrome Extension](https://chrome.google.com/webstore/detail/cobi-devkit-simulator/hpdhkapigojggienmiejhblkhenjdbno)
-2. Navigate to our [interactive demo](https://codepen.io) on codepen.io
+2. Navigate to our [interactive demo](https://codepen.io/cobi-bike/pen/VzBOqp?editors=0010) on codepen.io
 3. Open the COBI DevKit Extension alongside the example in your Chrome browser window
 4. Change location coordinates and hit thumb controller buttons to see COBI.js in action. This simulates data and interaction events that will later be provided by the COBI system when riding a bike.
 
@@ -25,7 +25,7 @@ To get your Web App ready just add `COBI.js` at the end of the body section of y
 ```html
 <script src="https://cdn.cobi.bike/cobi.js/0.34.0/cobi.js"></script>
 ```
-... and provide an authentication token back to COBI before subscribing to the data stream. COBI doesn't issue tokens yet, so you can use any token for now: 
+... and provide an authentication token back to COBI before subscribing to the data stream. COBI doesn't issue tokens yet, so you can use any token for now:
 ```javascript
 
 // Authenticate your module
@@ -95,10 +95,10 @@ Hint: Take a look at our [COBI Modules UI Components](https://github.com/cobi-bi
 
 ## Everything else about the COBI DevKit 🌈
 
-### Inspiration & Examples 
+### Inspiration & Examples
 
 * Get inspired by our showcases on the [COBI DevKit site](https://cobi.bike/devkit)
-* Take a testride with one of our example modules in the COBI iOS app. Requires registration as a developer on [my.cobi.bike](https://my.cobi.bike) 
+* Take a testride with one of our example modules in the COBI iOS app. Requires registration as a developer on [my.cobi.bike](https://my.cobi.bike)
 * Visit our [Showtime Developer Forum](https://forums.cobi.bike/c/showtime) for additional inspiration from the developer community
 
 ### Interface Guidelines
