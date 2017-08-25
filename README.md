@@ -73,6 +73,8 @@ Ready? Then open up the COBI App on your iPhone and open the edit modules screen
 
 When you open »My Module« on the home screen or the dashboard, you can enter the URL of your module (it can be hosted wherever you want, but we have some suggestions below). When you press »Open module« your module is loaded and hooked up to the COBI App. Now you can easily test your idea on your 🚲.
 
+<img src="resources/Modules.jpeg" width="280px" alt="COBI iOS App Home"> <img src="resources/EditModules.jpeg" width="280px" alt="COBI iOS App Edit Modules"> <img src="resources/MyModule.jpeg" width="280px" alt="COBI iOS App My Module">
+
 ## 🏓 Play ping-pong with the COBI App
 
 Take advantage of interfaces to the native COBI app to save yourself a lot of work.
