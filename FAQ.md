@@ -1,5 +1,19 @@
 ## Getting Started FAQ
 
+### What do I need to get started?
+
+To develop & test your COBI Module in the browser:
+
+* Baseline skills in modern web development
+* [COBI.js Simulator](https://github.com/cobi-bike/COBI.js-simulator)
+
+To test your COBI Module on a bike or eBike:
+
+* Online hosting for your Module
+* iOS device (minimum iPhone 5 with iOS 9.0)
+* [COBI system](https://get.cobi.bike)
+* Registration as a COBI Developer on [my.cobi.bike](https://my.cobi.bike)
+
 ### Do I need to purchase a COBI system to start building a module?
 
 No, you can get started for free with the [COBI.js Simulator](https://github.com/cobi-bike/COBI.js-simulator) and test on a COBI system when you're ready. If you don't have a COBI system yet, you can purchase a Developer Edition on [my.cobi.bike](https://my.cobi.bike) or any other [COBI system](https://get.cobi.bike).
@@ -51,4 +65,4 @@ Currently there are no monetization plans via the COBI platform. If you’re off
 
 ### Any plans to support in-house distribution for enterprises?
 
-We are currently evaluating this option. Please get in touch with us to discuss your requirements.
+Yes, please [get in touch](https://cobi.bike/connect).
