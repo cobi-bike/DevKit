@@ -5,7 +5,7 @@
 To develop & test your COBI Module in the browser:
 
 * Baseline skills in modern web development
-* [COBI.js Simulator](https://github.com/cobi-bike/COBI.js-simulator)
+* [COBI DevKit Simulator](https://github.com/cobi-bike/COBI.js-simulator)
 
 To test your COBI Module on a bike or eBike:
 
