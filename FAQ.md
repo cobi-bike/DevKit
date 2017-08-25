@@ -18,7 +18,7 @@ You can turn any of your existing Web Apps into a COBI module with a few extra l
 
 ### Do I need to purchase a COBI system to start building a module?
 
-No, you can get started for free with the [COBI DevKit Simulator](https://github.com/cobi-bike/COBI.js-simulator) and test on a COBI system when you're ready. If you don't have a COBI system yet, you can purchase a Developer Edition on [cobi.bike/devkit](https://cobi.bike/devkit) or any other COBI System in our [online store](https://get.cobi.bike).
+No, you can get started for free with the [COBI DevKit Simulator](https://github.com/cobi-bike/COBI.js-simulator) and test on a COBI system when you're ready. If you don't have a COBI yet, you can purchase a Developer Edition on [cobi.bike/devkit](https://cobi.bike/devkit) or any other COBI System in our [online store](https://get.cobi.bike).
 
 ### How can I turn my website / webapp into a COBI module?
 
