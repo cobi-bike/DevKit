@@ -23,7 +23,7 @@ It only takes a few lines of javascript to turn Web Apps into a COBI module:
 
 To get your Web App ready just add `cobi.js` at the end of the body section of your HTML:
 ```html
-<script src="https://cdn.cobi.bike/cobi.js/0.34.0/cobi.js"></script>
+<script src="https://cdn.cobi.bike/cobi.js/0.34.1/cobi.js"></script>
 ```
 and pass an authentication token to COBI before subscribing to the data stream. 
 COBI doesn't issue tokens yet, so you can use any string for now: 
@@ -57,7 +57,7 @@ There is a ton of data available such as current speed, course, heart-rate (if h
 
 ### Step 3: Testing
 
-Now that you have supercharged your WebApp, you can test your module either in the Chrome browser on your machine or directly in the COBI iOS App on your bike.
+Now that you have supercharged your Web App, you can test your module either in the Chrome browser on your machine or directly in the COBI iOS App on your bike.
 
 #### Browser testing
 
@@ -69,7 +69,7 @@ To simulate riding and fitness data you can play back one of our [sample cobitra
 
 You need to be a registered COBI developer to test modules on your bike. Go to [my.cobi.bike](https://dev-my.cobi.bike/developer) to get started. If you don't own a COBI yet, get one with a special developer discount at [get.cobi.bike/developer](https://get.cobi.bike/developer/).
 
-Ready? Then open up the COBI App on your iPhone and open the edit modules screen. As COBI developer you can now choose out of a number of DevKit based example modules and integrate your own by adding the »My Module« module.
+Ready? Then open up the COBI App on your iPhone and open the edit modules screen. As COBI developer you can now choose from a number of examples modules or add you own via »My Module«
 
 When you open »My Module« on the home screen or the dashboard, you can enter the URL of your module (it can be hosted wherever you want, but we have some suggestions below). When you press »Open module« your module is loaded and hooked up to the COBI App. Now you can easily test your idea on your 🚲.
 
