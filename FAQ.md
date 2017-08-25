@@ -1,26 +1,24 @@
 ## Getting Started FAQ
 
-### What do I need to get started?
+### What do I need to get started with the DevKit?
 
-To develop & test your COBI Module in the browser:
+#### 1. To develop & test your COBI Module in the browser:
 
 * Baseline skills in modern web development
 * [COBI DevKit Simulator](https://github.com/cobi-bike/COBI.js-simulator)
 
-To test your COBI Module on a bike or eBike:
+You can turn any of your existing webapps into a COBI module with a few lines of javascript.
+
+#### 2. To test your COBI Module on a bike or eBike:
 
 * Online hosting for your Module
-* iOS device (minimum iPhone 5 with iOS 9.0)
-* [COBI system](https://get.cobi.bike)
+* iOS Device (minimum iPhone 5 with iOS 9.0)
+* [COBI System](https://get.cobi.bike)
 * Registration as a COBI Developer on [my.cobi.bike](https://my.cobi.bike)
 
 ### Do I need to purchase a COBI system to start building a module?
 
-No, you can get started for free with the [COBI DevKit Simulator](https://github.com/cobi-bike/COBI.js-simulator) and test on a COBI system when you're ready. If you don't have a COBI system yet, you can purchase a Developer Edition on [my.cobi.bike](https://my.cobi.bike) or any other [COBI system](https://get.cobi.bike).
-
-### What skills are required to build COBI modules?
-
-If you have some baseline experience with HTML, CSS, Javascript you are good to go. You can turn any of your existing webapps into a COBI module with a few lines of javascript.
+No, you can get started for free with the [COBI DevKit Simulator](https://github.com/cobi-bike/COBI.js-simulator) and test on a COBI system when you're ready. If you don't have a COBI system yet, you can purchase a Developer Edition on [cobi.bike/devkit](https://cobi.bike/devkit) or any other COBI System in our [online store](https://get.cobi.bike).
 
 ### How can I turn my website / webapp into a COBI module?
 
