@@ -4,7 +4,7 @@ A collection of Open Source components to develop [modules](https://cobi.bike/de
 
 ![COBI DevKit](COBI-DevKit.png)
 
-## Interactive Demo: Learn the fundamentals 💡
+## 💡Interactive Demo: Learn the fundamentals
 
 Here's the quickest way to learn the COBI DevKit basics without writing any code:
 
@@ -15,17 +15,18 @@ Here's the quickest way to learn the COBI DevKit basics without writing any code
 
 Bonus points for directly tweaking the code e.g. subscribing to additional data from the COBI.js data stream.
 
-## Let's get started with your first project 🚀
+## 🚀 Let's get started with your first project
 
 It only takes a few lines of javascript to turn Web Apps into a COBI module:
 
-### Step 1: Add boilerplate code to your web project
+### Step 1: Add boilerplate code
 
-To get your Web App ready just add `COBI.js` at the end of the body section of your HTML:
+To get your Web App ready just add `cobi.js` at the end of the body section of your HTML:
 ```html
 <script src="https://cdn.cobi.bike/cobi.js/0.34.0/cobi.js"></script>
 ```
-... and provide an authentication token back to COBI before subscribing to the data stream. COBI doesn't issue tokens yet, so you can use any token for now: 
+and pass an authentication token to COBI before subscribing to the data stream. 
+COBI doesn't issue tokens yet, so you can use any string for now: 
 ```javascript
 
 // Authenticate your module
@@ -34,7 +35,7 @@ COBI.init('my-token')
 
 It's that easy: Any Web App + COBI.js = __COBI Module__!
 
-### Step 2: Hook into the COBI.js data stream
+### Step 2: Hook into the data stream
 
 Enough with the boilerplate code, let's make our new COBI module respond to the handlebar remote control:
 
@@ -44,7 +45,7 @@ COBI.hub.externalInterfaceAction.subscribe(function(action) {
 });
 ```
 
-... or visualize the Cadence acquired by COBI from an external Bluetooth sensor or eBike motor:
+or visualize the Cadence acquired by COBI from an external Bluetooth sensor or eBike motor:
 
 ```javascript
 COBI.rideService.cadence.subscribe(function(cadence) {
@@ -56,11 +57,23 @@ There is a ton of data available such as current speed, course, heart-rate (if h
 
 ### Step 3: Testing
 
-COBI Modules (as you know: a fancy name for Web Apps with COBI.js) can be viewed by modern web browsers. However, in order to receive data via COBI.js we need an input data source – currently there are two options:
-1. Test in the browser: Install our [COBI DevKit Chrome Extension](https://chrome.google.com/webstore/detail/cobi-devkit-simulator/hpdhkapigojggienmiejhblkhenjdbno) and test in the browser with simulated data sources. To simulate riding & fitness data you can play back one of our sample cobitrack or GPX files.
-2. Test on the bike/eBike: Enter the URL to your COBI module in our iOS app and take a testride on your bike. Requires registration as a developer on [my.cobi.bike](https://my.cobi.bike) and a [COBI system](https://get.cobi.bike) on your bike (Developer Editions can be ordered from [my.cobi.bike](https://my.cobi.bike)).
+Now that you have supercharged your WebApp, you can test your module either in the Chrome browser on your machine or directly in the COBI iOS App on your bike.
 
-## Play ping-pong with the COBI App 🏓
+#### Browser testing
+
+Just install the [COBI DevKit Chrome Extension](https://chrome.google.com/webstore/detail/cobi-devkit-simulator/hpdhkapigojggienmiejhblkhenjdbno), open up the Developer Tools (⌘ + Option + i / Ctrl + Shift + j) and select the »COBI« tab.  
+To get the best experience, switch on the phone mode in the upper left corner and rotate the device to landscape.
+To simulate riding and fitness data you can play back one of our [sample cobitrack or GPX files](https://github.com/cobi-bike/DevKit-Simulator/tree/master/tracks).
+
+#### On-bike testing 
+
+You need to be a registered COBI developer to test modules on your bike. Go to [my.cobi.bike](https://dev-my.cobi.bike/developer) to get started. If you don't own a COBI yet, get one with a special developer discount at [get.cobi.bike/developer](https://get.cobi.bike/developer/).
+
+Ready? Then open up the COBI App on your iPhone and open the edit modules screen. As COBI developer you can now choose out of a number of DevKit based example modules and integrate your own by adding the »My Module« module.
+
+When you open »My Module« on the home screen or the dashboard, you can enter the URL of your module (it can be hosted wherever you want, but we have some suggestions below). When you press »Open module« your module is loaded and hooked up to the COBI App. Now you can easily test your idea on your 🚲.
+
+## 🏓 Play ping-pong with the COBI App
 
 Take advantage of interfaces to the native COBI app to save yourself a lot of work.
 
@@ -87,13 +100,13 @@ COBI.devkit.overrideThumbControllerMapping.write(true);
 
 Check out the [COBI.js reference](https://cobi-bike.github.io/COBI.js/) for more.
 
-## Settings for your Module 🎛
+## 🎛 Settings for your Module
 
 [Explain states]
 
 Hint: Take a look at our [COBI Modules UI Components](https://github.com/cobi-bike/Modules-UI) for an easy way to create a UI for your settings.
 
-## Everything else about the COBI DevKit 🌈
+## 🌈 Everything else about the COBI DevKit
 
 ### Inspiration & Examples 
 
@@ -120,7 +133,7 @@ Read our [Interface Guidelines](interface-guidelines.md) to understand the uniqu
 - [Glitch](https://glitch.com/) – friendly community where you'll build the app of your dreams
 - [CodePen](https://codepen.io/) – social development environment for front-end designers and developers
 
-## Contributing to this project
+## 👏 Contributing to this project
 
 Anyone and everyone is welcome to contribute. Please take a moment to review the [guidelines for contributing](CONTRIBUTING.md).
 
