@@ -34,6 +34,10 @@ We like getting inspired on [codepen.io](https://codepen.io) and building protot
 
 Did you already sign up as a COBI Developer on [my.cobi.bike](https://my.cobi.bike)? If yes, please follow the instructions on the [DevKit site](https://github.com/cobi-bike/COBI-DevKit).
 
+### Sometimes the settings of my Module are reset
+
+If your iOS device is low on storage, the Safari browser cache may get deleted. This is a known issue for now. 
+
 ### I'm using the `subscribe` method, but I don't receive any data
 
 Make sure to authenticate your module first – to do so call
