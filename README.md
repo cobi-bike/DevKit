@@ -82,7 +82,10 @@ Take advantage of interfaces to the native COBI app to save yourself a lot of wo
 
 #### Start a turn-by-turn navigation to a destination:
 ```javascript
-COBI.navigationService.control.write({'action': 'START', 'destination': {'latitude': 50.110924,'longitude': 8.682127}})
+COBI.navigationService.control.write({
+  'action': 'START', 
+  'destination': {'latitude': 50.110924,'longitude': 8.682127}
+})
 ```
 #### Open a phone number picker with the list of contacts:
 ```javascript
