@@ -59,7 +59,7 @@ We are in the process of defining distribution mechanisms which are planned to s
 
 ### Will I be able to charge money for my COBI Module?
 
-Currently there are no monetization plans via the COBI platform. If you’re offering a commercial service we recommend to view COBI Modules as a bike-friendly "springboard" to offer limited, specific functionality suitable for the context of biking. For more advanced functionalities, you can link to your own native app or website. Feel free to use a login to authenticate users for paid functionalities.
+Currently there are no monetization plans via the COBI platform. If you’re offering a commercial service we recommend to view COBI Modules as a bike-friendly "springboard" to offer limited, specific functionality suitable for the context of biking. For more advanced functionalities, you can link to your own native app or website. Feel free to use a login to authenticate users for paid functionalities, but make sure to follow the requirements of respective mobile ecosystem policies.
 
 ### Any plans to support in-house distribution for enterprises?
 
