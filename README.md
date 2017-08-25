@@ -6,22 +6,22 @@ A collection of Open Source components to develop [modules](https://cobi.bike/de
 
 ## Interactive Demo: Learn the fundamentals 💡
 
-Here's the quickest way to learn the COBI DevKit principle without writing any code:
+Here's the quickest way to learn the COBI DevKit basics without writing any code:
 
 1. Install the [COBI DevKit Chrome Extension](https://chrome.google.com/webstore/detail/cobi-devkit-simulator/hpdhkapigojggienmiejhblkhenjdbno)
 2. Navigate to our [interactive demo](https://codepen.io) on codepen.io
 3. Open the COBI DevKit Extension alongside the example in your Chrome browser window
-4. Change location coordinates and hit thumb controller buttons to see COBI.js in action. This simulates data and interaction events that will later be provided by the COBI system when riding on a bike.
+4. Change location coordinates and hit thumb controller buttons to see COBI.js in action. This simulates data and interaction events that will later be provided by the COBI system when riding a bike.
 
 Bonus points for directly tweaking the code e.g. subscribing to additional data from the COBI.js data stream.
 
 ## Let's get started with your first project 🚀
 
-It only takes a few lines of javascript to turn web apps into a COBI module:
+It only takes a few lines of javascript to turn web-apps into a COBI module:
 
 ### Step 1: Add boilerplate code to your web project
 
-To get your web app ready just add `COBI.js` at the end of the body section of your HTML:
+To get your Web App ready just add `COBI.js` at the end of the body section of your HTML:
 ```html
 <script src="https://cdn.cobi.bike/cobi.js/0.34.0/cobi.js"></script>
 ```
@@ -32,7 +32,7 @@ To get your web app ready just add `COBI.js` at the end of the body section of y
 COBI.init('my-token')
 ```
 
-It's that easy: Any web app + COBI.js = COBI module!
+It's that easy: Any Web App + COBI.js = __COBI Module__!
 
 ### Step 2: Hook into the COBI.js data stream
 
@@ -40,7 +40,7 @@ Enough with the boilerplate code, let's make our new COBI module respond to the 
 
 ```javascript
 COBI.hub.externalInterfaceAction.subscribe(function(action) {
-  alert('Holy moly, I just tapped the handlebar remote and instantly received this ' + action + ' in my web app');
+  alert('Holy moly, I just tapped the handlebar remote and instantly received this ' + action + ' in my Web App');
 });
 ```
 
@@ -56,7 +56,7 @@ There is a ton of data available such as current speed, course, heart-rate (if h
 
 ### Step 3: Testing
 
-COBI modules (a fancy name for web apps with COBI.js) can be viewed by modern web browsers. However, in order to receive data via COBI.js we need an input data source – currently there are two options:
+COBI Modules (as you know: a fancy name for web-apps with COBI.js) can be viewed by modern web browsers. However, in order to receive data via COBI.js we need an input data source – currently there are two options:
 1. Test in the browser: Install our [COBI DevKit Chrome Extension](https://chrome.google.com/webstore/detail/cobi-devkit-simulator/hpdhkapigojggienmiejhblkhenjdbno) and test in the browser with simulated data sources. To simulate riding & fitness data you can play back one of our sample cobitrack or GPX files.
 2. Test on the bike/eBike: Enter the URL to your COBI module in our iOS app and take a testride on your bike. Requires registration as a developer on [my.cobi.bike](https://my.cobi.bike) and a [COBI system](https://get.cobi.bike) on your bike (Developer Editions can be ordered from [my.cobi.bike](https://my.cobi.bike)).
 
@@ -97,12 +97,11 @@ Hint: Take a look at our [COBI Modules UI Components](https://github.com/cobi-bi
 
 ### Inspiration & Examples 
 
-* Get inspired on the [COBI DevKit site](https://cobi.bike/devkit)
-* Take a testride with one of our example modules in the iOS app. Requires registration as a developer on [my.cobi.bike](https://my.cobi.bike)
-* Find more code templates in the [examples](examples) directory 
-* Visit our [Showtime Developer Forum](https://forums.cobi.bike/c/showtime) for additional inspiration from other developers
+* Get inspired by our showcases on the [COBI DevKit site](https://cobi.bike/devkit)
+* Take a testride with one of our example modules in the COBI iOS app. Requires registration as a developer on [my.cobi.bike](https://my.cobi.bike) 
+* Visit our [Showtime Developer Forum](https://forums.cobi.bike/c/showtime) for additional inspiration from the developer community
 
-### COBI Interface Guidelines
+### Interface Guidelines
 
 Read our [Interface Guidelines](interface-guidelines.md) to understand the unique challenges of developing software for bikes and to learn more about how the COBI system and modules work.
 
