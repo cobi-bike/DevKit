@@ -4,7 +4,7 @@ A collection of Open Source components to develop [modules](https://cobi.bike/de
 
 ![COBI DevKit](COBI-DevKit.png)
 
-## 💡Interactive Demo: Learn the fundamentals
+## 💡 Interactive Demo: Learn the fundamentals
 
 Here's the quickest way to learn the COBI DevKit basics without writing any code:
 
@@ -105,9 +105,31 @@ Check out the [COBI.js reference](https://cobi-bike.github.io/COBI.js/) for more
 
 ## 🎛 Settings for your Module
 
-[Explain states]
+A module can be shown in different states. There are three pieces of information that you should adapt to:
 
-Hint: Take a look at our [COBI Modules UI Components](https://github.com/cobi-bike/Modules-UI) for an easy way to create a UI for your settings.
+1. The device orientation — your module should automatically adapt to the available screen size
+1. The value of `COBI.parameters.state()` — can be either `COBI.state.edit` or `COBI.state.experience`
+1. The state of `COBI.app.touchInteractionEnabled` — changes when you start/stop riding  
+
+### Flexible layout
+
+Take a look at our [COBI Modules UI Components](https://github.com/cobi-bike/Modules-UI) for an easy way to create a UI for your settings.
+
+### Module state
+
+Right now, there are two states you should support. You can check `COBI.parameters.state()` at any time to decide if some sort of settings should be shown (`COBI.state.edit`) or if the actual module is requested (`COBI.state.experience`). To share information between the two states and in between user sessions use the web standard [Local Storage](https://html.spec.whatwg.org/multipage/webstorage.html#the-localstorage-attribute).
+
+### Touch Interaction Changes
+
+While riding, the user is encouraged to use the thumb controller instead of interacting with the UI via touch. Subscribe to changes of this state to make the best out of both situations. Please note that a bar is shown at the top while `touchInteractionEnabled` is `false` — make sure it is not overlapping with your UI.
+
+```javascript
+COBI.app.touchInteractionEnabled.subscribe(function(enabled) {
+    // Adapt your UI
+});
+```
+
+![Module States](resources/ModuleStates.jpg)
 
 ## 🌈 Everything else about the COBI DevKit
 
