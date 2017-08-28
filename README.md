@@ -32,22 +32,22 @@ COBI doesn't issue tokens yet, so you can use any string for now:
 ```javascript
 
 // Authenticate your module
-COBI.init('my-token')
+COBI.init('token — can by anything right now')
 ```
 
 It's that easy: Any Web App + COBI.js = __COBI Module__!
 
 ### Step 2: Hook into the data stream
 
-Enough with the boilerplate code, let's make our new COBI module respond to the handlebar remote control:
+Enough with the boilerplate code, let's make our new COBI module respond to the [handlebar remote control](https://cobi-bike.github.io/COBI.js/#cobihubexternalinterfaceactionsubscribe):
 
 ```javascript
 COBI.hub.externalInterfaceAction.subscribe(function(action) {
-  alert('Holy moly, I just tapped the handlebar remote and instantly received this ' + action + ' in my Web App');
+  console.log('I just tapped the handlebar remote and instantly received this ' + action + ' in my Web App');
 });
 ```
 
-or visualize the Cadence acquired by COBI from an external Bluetooth sensor or eBike motor:
+or visualize the [cadence](https://cobi-bike.github.io/COBI.js/#cobirideservicecadencesubscribe) acquired by COBI from an external Bluetooth sensor or e-bike motor:
 
 ```javascript
 COBI.rideService.cadence.subscribe(function(cadence) {
@@ -57,23 +57,25 @@ COBI.rideService.cadence.subscribe(function(cadence) {
 
 There is a ton of data available such as current speed, course, heart-rate (if heart-rate monitor is connected), power, calories burned and much more. Our [COBI.js reference](https://cobi-bike.github.io/COBI.js/) will be your friend.
 
-### Step 3: Testing
+## 🔬 Test your module
 
 Now that you have supercharged your Web App, you can test your module either in the Chrome browser on your machine or directly in the COBI iOS App on your bike.
 
-#### Browser testing
+### Browser testing
 
 Just install the [COBI DevKit Chrome Extension](https://chrome.google.com/webstore/detail/cobi-devkit-simulator/hpdhkapigojggienmiejhblkhenjdbno), open up the Developer Tools (⌘ + Option + i / Ctrl + Shift + j) and select the »COBI« tab.  
 To get the best experience, switch on the phone mode in the upper left corner and rotate the device to landscape.
 To simulate riding and fitness data you can play back one of our [sample cobitrack or GPX files](https://github.com/cobi-bike/DevKit-Simulator/tree/master/tracks).
 
-#### On-bike testing 
+### On-bike testing 
 
-You need to be a registered COBI developer to test modules on your bike. Go to [my.cobi.bike](https://dev-my.cobi.bike/developer) to get started. If you don't own a COBI yet, get one with a special developer discount at [get.cobi.bike/developer](https://get.cobi.bike/developer/).
+If you don't own a COBI yet, apply for a hardware development kit at [cobi.bike/devkit](https://cobi.bike/devkit) or purchase one at [get.cobi.bike](https://get.cobi.bike). Afterwards, register as a COBI developer to test your module on your bike. 
+
+[<img src="resources/become-dev-btn.png" width="262px" alt="Become a developer button">](https://my.cobi.bike/developer)
 
 Ready? Then open up the COBI App on your iPhone and open the edit modules screen. As COBI developer you can now choose from a number of examples modules or add you own via »My Module«
 
-When you open »My Module« on the home screen or the dashboard, you can enter the URL of your module (it can be hosted wherever you want, but we have some suggestions below). When you press »Open module« your module is loaded and hooked up to the COBI App. Now you can easily test your idea on your 🚲.
+When you open »My Module« on the home screen or the dashboard, you can enter the URL of your module (it can be hosted wherever you want, but we have some suggestions [below](#other-tools--resources)). When you press »Open module« your module is loaded and hooked up to the COBI App. Now you can easily test your idea on your 🚲.
 
 <img src="resources/Modules.jpeg" width="280px" alt="COBI iOS App Home"> <img src="resources/EditModules.jpeg" width="280px" alt="COBI iOS App Edit Modules"> <img src="resources/MyModule.jpeg" width="280px" alt="COBI iOS App My Module">
 
@@ -100,7 +102,7 @@ COBI.app.textToSpeech.write({'content' : 'Can you hear my voice?', 'language' : 
 ```javascript
 COBI.app.clockVisible.write(false);
 ```
-#### Claim all Thumb Controller buttons on eBikes that are reserved for motor control by default:
+#### Claim all Thumb Controller buttons on e-bikes that are reserved for motor control by default:
 ```javascript
 COBI.devkit.overrideThumbControllerMapping.write(true);
 ```
@@ -117,7 +119,7 @@ A module can be shown in different states. There are three pieces of information
 
 ### Flexible layout
 
-Take a look at our [COBI Modules UI Components](https://github.com/cobi-bike/Modules-UI) for an easy way to create a UI for your settings.
+Take a look at our [COBI DevKit UI Components](https://github.com/cobi-bike/DevKit-UI) for an easy way to create a UI for your settings.
 
 ### Module state
 
@@ -137,6 +139,13 @@ COBI.app.touchInteractionEnabled.subscribe(function(enabled) {
 
 ## 🌈 Everything else about the COBI DevKit
 
+### Debugging Tips & Tricks
+
+* To get better error messages when interacting with the `cobi.js` API, include `https://cdn.cobi.bike/cobi.js/0.34.1/cobi.dev.js` instead of the script mentioned above (**please note:** the dev version is considerably larger which has a big impact on the loading time)
+* To show a native dialog when running inside the iOS App, execute `console.warn("COBI", "your messages")` (only use for debugging)
+* When developing in Chrome, use the phone button in the upper left corner of the Chrome Developer Tools and rotate it to landscape to see how it looks while riding 
+* When using the Chrome Simulator, press the `Print state to console` button to print the current `cobi.js` state to the Chrome Developer Tools Console
+
 ### Inspiration & Examples
 
 * Get inspired by our showcases on the [COBI DevKit site](https://cobi.bike/devkit)
@@ -153,9 +162,8 @@ Read our [Interface Guidelines](interface-guidelines.md) to understand the uniqu
 - [Developer Forums](https://forums.cobi.bike)
 - [COBI DevKit Chrome Extension on Chrome Web Store](https://chrome.google.com/webstore/detail/cobi-devkit-simulator/hpdhkapigojggienmiejhblkhenjdbno)
 - [COBI DevKit Chrome Extension on Github](https://github.com/cobi-bike/COBI.js-simulator)
-- [COBI Modules UI Components](https://github.com/cobi-bike/Modules-UI)
+- [COBI DevKit UI Components](https://github.com/cobi-bike/DevKit-UI)
 - [COBI.js reference](https://cobi-bike.github.io/COBI.js/)
-- [COBI.js architecture](COBI.js-architecture.png)
 
 ### Other Tools & Resources
 
@@ -164,7 +172,7 @@ Read our [Interface Guidelines](interface-guidelines.md) to understand the uniqu
 
 ## 👏 Contributing to this project
 
-Anyone and everyone is welcome to contribute. Please take a moment to review the [guidelines for contributing](CONTRIBUTING.md).
+Anyone and everyone is welcome to contribute to this project, the [DevKit Simulator](https://github.com/cobi-bike/DevKit-Simulator) and the [COBI DevKit UI Components](https://github.com/cobi-bike/DevKit-UI). Please take a moment to review the [guidelines for contributing](CONTRIBUTING.md).
 
 * [Bug reports](CONTRIBUTING.md#bugs)
 * [Feature requests](CONTRIBUTING.md#features)
