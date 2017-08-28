@@ -164,7 +164,6 @@ Read our [Interface Guidelines](interface-guidelines.md) to understand the uniqu
 - [COBI DevKit Chrome Extension on Github](https://github.com/cobi-bike/COBI.js-simulator)
 - [COBI DevKit UI Components](https://github.com/cobi-bike/DevKit-UI)
 - [COBI.js reference](https://cobi-bike.github.io/COBI.js/)
-- [COBI.js architecture](COBI.js-architecture.png)
 
 ### Other Tools & Resources
 
