@@ -43,7 +43,7 @@ Enough with the boilerplate code, let's make our new COBI module respond to the 
 
 ```javascript
 COBI.hub.externalInterfaceAction.subscribe(function(action) {
-  alert('I just tapped the handlebar remote and instantly received this ' + action + ' in my Web App');
+  console.log('I just tapped the handlebar remote and instantly received this ' + action + ' in my Web App');
 });
 ```
 
