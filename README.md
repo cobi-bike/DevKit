@@ -9,7 +9,7 @@ A collection of Open Source components to develop [modules](https://cobi.bike/de
 
 The quickest way to learn the COBI DevKit basics without writing any code. 
 
-[<img src="resources/open-demo-btn.png" width="170px" alt="COBI iOS App Home">](https://codepen.io/cobi-bike/pen/VzBOqp?editors=0010)
+[<img src="resources/open-demo-btn.png" width="170px" alt="Open demo button">](https://codepen.io/cobi-bike/pen/VzBOqp?editors=0010)
 
 
 
