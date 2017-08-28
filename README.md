@@ -71,7 +71,7 @@ To simulate riding and fitness data you can play back one of our [sample cobitra
 
 If you don't own a COBI yet, apply for a hardware development kit at [cobi.bike/devkit](https://cobi.bike/devkit) or purchase one at [get.cobi.bike](https://get.cobi.bike). Afterwards, register as a COBI developer to test your module on your bike. 
 
-[<img src="resources/open-demo-btn.png" width="170px" alt="Become a developer button">](https://my.cobi.bike/developer)
+[<img src="resources/become-dev-btn.png" width="262px" alt="Become a developer button">](https://my.cobi.bike/developer)
 
 Ready? Then open up the COBI App on your iPhone and open the edit modules screen. As COBI developer you can now choose from a number of examples modules or add you own via »My Module«
 
