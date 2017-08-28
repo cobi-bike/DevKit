@@ -144,7 +144,7 @@ COBI.app.touchInteractionEnabled.subscribe(function(enabled) {
 * To get better error messages when interacting with the `cobi.js` API, include `https://cdn.cobi.bike/cobi.js/0.34.1/cobi.dev.js` instead of the script mentioned above (**please note:** the dev version is considerably larger which has a big impact on the loading time)
 * To show a native dialog when running inside the iOS App, execute `console.warn("COBI", "your messages")` (only use for debugging)
 * When developing in Chrome, use the phone button in the upper left corner of the Chrome Developer Tools and rotate it to landscape to see how it looks while riding 
-* When using the Chrome Simulator, press the `Print state to console` button to get the current state of the simulator printed to the Chrome Developer Tools Console
+* When using the Chrome Simulator, press the `Print state to console` button to print the current `cobi.js` state to the Chrome Developer Tools Console
 
 ### Inspiration & Examples
 
