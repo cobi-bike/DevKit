@@ -32,7 +32,7 @@ COBI doesn't issue tokens yet, so you can use any string for now:
 ```javascript
 
 // Authenticate your module
-COBI.init('token — can by anything right now')
+COBI.init('token — can be anything right now')
 ```
 
 It's that easy: Any Web App + COBI.js = __COBI Module__!
