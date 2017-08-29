@@ -88,15 +88,17 @@ Take advantage of interfaces to the native COBI app to save yourself a lot of wo
 COBI.navigationService.control.write({
   'action': 'START', 
   'destination': {'latitude': 50.110924,'longitude': 8.682127}
-})
+});
 ```
 #### Open a phone number picker with the list of contacts:
 ```javascript
-COBI.app.contact.read()
+COBI.app.contact.read(function(contact) {
+  console.log(contact);
+});
 ```
 #### Hook into the voice feedback system:
 ```javascript
-COBI.app.textToSpeech.write({'content' : 'Can you hear my voice?', 'language' : 'en-US'})
+COBI.app.textToSpeech.write({'content' : 'Can you hear my voice?', 'language' : 'en-US'});
 ```
 #### Claim the entire screen space by hiding the clock in the top right corner:
 ```javascript
