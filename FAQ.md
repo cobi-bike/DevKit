@@ -49,7 +49,7 @@ The native app will display javascript errors in a dialog. Just activate this fe
 
 ### How do I get a specific version of the `COBI.js` library?
 
-The following url provides `0.34.1` of `COBI.js`: *https://cdn.cobi.bike/cobi.js/0.34.1/cobi.js*. 
+The following url provides `0.42.0` of `COBI.js`: *https://cdn.cobi.bike/cobi.js/0.42.0/cobi.js*. 
 This will work for any other published version.
 
 ## Distribution / Business Model FAQ

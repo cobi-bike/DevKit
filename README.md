@@ -24,7 +24,7 @@ It only takes a few lines of javascript to turn Web Apps into a module:
 
 To get your Web App ready just add `COBI.js` at the end of the body section of your HTML:
 ```html
-<script src="https://cdn.cobi.bike/cobi.js/0.34.1/cobi.js"></script>
+<script src="https://cdn.cobi.bike/cobi.js/0.42.0/cobi.js"></script>
 ```
 
 and pass an authentication token to the `COBI.init` function before subscribing to the data stream. 
@@ -181,4 +181,4 @@ Anyone and everyone is welcome to contribute to this project, the [DevKit Simula
 * [Feature requests](CONTRIBUTING.md#features)
 * [Pull requests](CONTRIBUTING.md#pull-requests)
 
-Copyright © 2017 COBI.bike GmbH
+Copyright © 2018 COBI.bike GmbH
