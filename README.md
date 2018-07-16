@@ -148,12 +148,18 @@ COBI.app.touchInteractionEnabled.subscribe(function(enabled) {
 * To show a native dialog when running inside the iOS App, just use a normal `alert("your messages")` (only for debugging)
 * When developing in Chrome, use the phone button in the upper left corner of the Chrome Developer Tools and rotate it to landscape to see how it looks while riding 
 * When using the Chrome Simulator, press the `Print state to console` button to print the current `COBI.js` state to the Chrome Developer Tools Console
+* To change the current [state](https://github.com/cobi-bike/DevKit#-settings-for-your-module) append `?state=edit` or `?state=experience` to your URL in the browser.
 
 ### Inspiration & Examples
 
 * Get inspired by our showcases on the [COBI.bike DevKit site](https://cobi.bike/devkit)
 * Take a testride with one of our example modules in the COBI.bike iOS app. Requires registration as a developer on [my.cobi.bike](https://my.cobi.bike)
 * Visit our [Showtime Developer Forum](https://forums.cobi.bike/c/showtime) for additional inspiration from the developer community
+* Check out our open source modules
+  - [News](https://github.com/cobi-bike/Module-News)
+  - [Grid](https://github.com/cobi-bike/Module-Grid)
+  - [Ping](https://github.com/cobi-bike/Module-Ping)
+  - [Spotify](https://github.com/cobi-bike/Module-Spotify)
 
 ### Interface Guidelines
 
