@@ -1,8 +1,8 @@
-# COBI.bike DevKit
+# COBI.Bike DevKit
 
-A collection of Open Source components to develop [modules](https://cobi.bike/devkit) for [COBI.bike](https://cobi.bike) – the perfect fusion of smartphone and bike.
+A collection of Open Source components to develop [modules](https://cobi.bike/devkit) for [COBI.Bike](https://cobi.bike) – the perfect fusion of smartphone and bike.
 
-![COBI.bike DevKit](COBI-DevKit.png)
+![COBI.Bike DevKit](COBI-DevKit.png)
 
 ## 💡 Interactive Demo: Learn the fundamentals
 
@@ -13,7 +13,7 @@ The quickest way to learn the DevKit basics without writing any code.
 
 
 
-Change location coordinates and hit thumb controller buttons to see `COBI.js` in action. This simulates data and interaction events that will later be provided by the COBI.bike system when riding a bike. Bonus points for directly tweaking the code e.g. subscribing to additional data from the `COBI.js` data stream.
+Change location coordinates and hit thumb controller buttons to see `COBI.js` in action. This simulates data and interaction events that will later be provided by the COBI.Bike system when riding a bike. Bonus points for directly tweaking the code e.g. subscribing to additional data from the `COBI.js` data stream.
 
 
 ## 🚀 Let's get started with your first project
@@ -47,7 +47,7 @@ COBI.hub.externalInterfaceAction.subscribe(function(action) {
 });
 ```
 
-or visualize the [cadence](https://cobi-bike.github.io/COBI.js/#cobirideservicecadencesubscribe) acquired by COBI.bike app from an external Bluetooth sensor or e-bike motor:
+or visualize the [cadence](https://cobi-bike.github.io/COBI.js/#cobirideservicecadencesubscribe) acquired by COBI.Bike app from an external Bluetooth sensor or e-bike motor:
 
 ```javascript
 COBI.rideService.cadence.subscribe(function(cadence) {
@@ -59,29 +59,29 @@ There is a ton of data available such as current speed, course, heart-rate (if h
 
 ## 🔬 Test your module
 
-Now that you have supercharged your Web App, you can test your module either in the Chrome browser on your machine or directly in the COBI.bike iOS App on your bike.
+Now that you have supercharged your Web App, you can test your module either in the Chrome browser on your machine or directly in the COBI.Bike iOS App on your bike.
 
 ### Browser testing
 
-Just install the [DevKit Simulator Chrome Extension](https://chrome.google.com/webstore/detail/cobi-devkit-simulator/hpdhkapigojggienmiejhblkhenjdbno), open up the Developer Tools (⌘ + Option + i / Ctrl + Shift + j) and select the »COBI.bike« tab.  
+Just install the [DevKit Simulator Chrome Extension](https://chrome.google.com/webstore/detail/cobi-devkit-simulator/hpdhkapigojggienmiejhblkhenjdbno), open up the Developer Tools (⌘ + Option + i / Ctrl + Shift + j) and select the »COBI.Bike« tab.  
 To get the best experience, switch on the phone mode in the upper left corner and rotate the device to landscape.
 To simulate riding and fitness data you can play back one of our [sample cobitrack or GPX files](https://github.com/cobi-bike/DevKit-Simulator/tree/master/tracks).
 
 ### On-bike testing 
 
-If you don't own a COBI.bike yet, apply for a hardware development kit at [cobi.bike/devkit](https://cobi.bike/devkit) or purchase one at [get.cobi.bike](https://get.cobi.bike). Afterwards, register as a developer to test your module on your bike. 
+If you don't own a COBI.vike yet, apply for a hardware development kit at [cobi.bike/devkit](https://cobi.bike/devkit) or purchase one at [get.cobi.bike](https://get.cobi.bike). Afterwards, register as a developer to test your module on your bike. 
 
 [<img src="resources/become-dev-btn.png" width="262px" alt="Become a developer button">](https://my.cobi.bike/developer)
 
-Ready? Then open up the COBI.bike app on your iPhone and open the edit modules screen. As developer you can now choose from a number of examples modules or add you own via »My Module«
+Ready? Then open up the COBI.Bike app on your iPhone and open the edit modules screen. As developer you can now choose from a number of examples modules or add you own via »My Module«
 
 When you open »My Module« on the home screen or the dashboard, you can enter the URL of your module (it can be hosted wherever you want, but we have some suggestions [below](#other-tools--resources)). When you press »Open module« your module is loaded and hooked up to the app. Now you can easily test your idea on your 🚲.
 
-<img src="resources/Modules.jpeg" width="280px" alt="COBI.bike iOS App Home"> <img src="resources/EditModules.jpeg" width="280px" alt="COBI.bike iOS App Edit Modules"> <img src="resources/MyModule.jpeg" width="280px" alt="COBI.bike iOS App My Module">
+<img src="resources/Modules.jpeg" width="280px" alt="COBI.Bike iOS App Home"> <img src="resources/EditModules.jpeg" width="280px" alt="COBI.Bike iOS App Edit Modules"> <img src="resources/MyModule.jpeg" width="280px" alt="COBI.Bike iOS App My Module">
 
-## 🏓 Play ping-pong with the COBI.bike app
+## 🏓 Play ping-pong with the COBI.Bike app
 
-Take advantage of interfaces to the native COBI.bike app to save yourself a lot of work.
+Take advantage of interfaces to the native COBI.Bike app to save yourself a lot of work.
 
 #### Start a turn-by-turn navigation to a destination:
 ```javascript
@@ -113,23 +113,27 @@ Check out the [`COBI.js` reference](https://cobi-bike.github.io/COBI.js/) for mo
 
 ## 🎛 Settings for your Module
 
-A module can be shown in different states. There are three pieces of information that you should adapt to:
+A module can be shown in different contexts. There are three pieces of information that you should adapt to:
 
 1. The device orientation — your module should automatically adapt to the available screen size
-1. The value of `COBI.parameters.state()` — can be either `COBI.state.edit` or `COBI.state.experience`
-1. The state of `COBI.app.touchInteractionEnabled` — changes when you start/stop riding  
+2. The value of `COBI.parameters.context()` — can be one of
+- `COBI.context.onRide`
+- `COBI.context.offRide`
+- `COBI.context.onRideSettings`
+- `COBI.context.offRideSettings`
+3. The value of `COBI.app.touchInteractionEnabled` — changes when you start/stop riding  
 
 ### Flexible layout
 
-Take a look at our [COBI.bike DevKit UI Components](https://github.com/cobi-bike/DevKit-UI) for an easy way to create a UI for your settings.
+Take a look at our [COBI.Bike DevKit UI Components](https://github.com/cobi-bike/DevKit-UI) for an easy way to create a UI for your settings.
 
-### Module state
+### Module context
 
-Right now, there are two states you should support. You can check `COBI.parameters.state()` at any time to decide if some sort of settings should be shown (`COBI.state.edit`) or if the actual module is requested (`COBI.state.experience`). To share information between the two states and in between user sessions use the web standard [Local Storage](https://html.spec.whatwg.org/multipage/webstorage.html#the-localstorage-attribute).
+There are 4 contexts you should support. You can check `COBI.parameters.context()` at any time to decide if some sort of settings should be shown (`COBI.context.onRideSettings` or `COBI.context.offRideSettings`) or if the actual module is requested (`COBI.context.onRide` or `COBI.context.offRide`). To share information between the two contexts and in between user sessions use the web standard [Local Storage](https://html.spec.whatwg.org/multipage/webstorage.html#the-localstorage-attribute).
 
 ### Touch Interaction Changes
 
-While riding, the user is encouraged to use the thumb controller instead of interacting with the UI via touch. Subscribe to changes of this state to make the best out of both situations. Please note that a bar is shown at the top while `touchInteractionEnabled` is `false` — make sure it is not overlapping with your UI.
+While riding, the user is encouraged to use the thumb controller instead of interacting with the UI via touch. Subscribe to changes of this value to make the best out of both situations. Please note that a bar is shown at the top while `touchInteractionEnabled` is `false` — make sure it is not overlapping with your UI.
 
 ```javascript
 COBI.app.touchInteractionEnabled.subscribe(function(enabled) {
@@ -137,7 +141,7 @@ COBI.app.touchInteractionEnabled.subscribe(function(enabled) {
 });
 ```
 
-![Module States](resources/ModuleStates.jpg)
+![Module Contexts](resources/ModuleStates.jpg)
 
 ## 🌈 Everything else about the DevKit
 
@@ -148,12 +152,12 @@ COBI.app.touchInteractionEnabled.subscribe(function(enabled) {
 * To show a native dialog when running inside the iOS App, just use a normal `alert("your messages")` (only for debugging)
 * When developing in Chrome, use the phone button in the upper left corner of the Chrome Developer Tools and rotate it to landscape to see how it looks while riding 
 * When using the Chrome Simulator, press the `Print state to console` button to print the current `COBI.js` state to the Chrome Developer Tools Console
-* To change the current [state](https://github.com/cobi-bike/DevKit#-settings-for-your-module) append `?state=edit` or `?state=experience` to your URL in the browser.
+* To change the current [context](https://github.com/cobi-bike/DevKit#-settings-for-your-module) append `?context=onRide` or your desired context to your URL in the browser.
 
 ### Inspiration & Examples
 
-* Get inspired by our showcases on the [COBI.bike DevKit site](https://cobi.bike/devkit)
-* Take a testride with one of our example modules in the COBI.bike iOS app. Requires registration as a developer on [my.cobi.bike](https://my.cobi.bike)
+* Get inspired by our showcases on the [COBI.Bike DevKit site](https://cobi.bike/devkit)
+* Take a testride with one of our example modules in the COBI.Bike iOS app. Requires registration as a developer on [my.cobi.bike](https://my.cobi.bike)
 * Visit our [Showtime Developer Forum](https://forums.cobi.bike/c/showtime) for additional inspiration from the developer community
 * Check out our open source modules
   - [News](https://github.com/cobi-bike/Module-News)
@@ -163,15 +167,15 @@ COBI.app.touchInteractionEnabled.subscribe(function(enabled) {
 
 ### Interface Guidelines
 
-Read our [Interface Guidelines](interface-guidelines.md) to understand the unique challenges of developing software for bikes and to learn more about how the COBI.bike system and modules work.
+Read our [Interface Guidelines](interface-guidelines.md) to understand the unique challenges of developing software for bikes and to learn more about how the COBI.Bike system and modules work.
 
 ### More DevKit Resources
 
 - [FAQ](FAQ.md)
 - [Developer Forums](https://forums.cobi.bike)
-- [COBI.bike DevKit Chrome Extension on Chrome Web Store](https://chrome.google.com/webstore/detail/cobi-devkit-simulator/hpdhkapigojggienmiejhblkhenjdbno)
-- [COBI.bike DevKit Chrome Extension on Github](https://github.com/cobi-bike/COBI.js-simulator)
-- [COBI.bike DevKit UI Components](https://github.com/cobi-bike/DevKit-UI)
+- [COBI.Bike DevKit Chrome Extension on Chrome Web Store](https://chrome.google.com/webstore/detail/cobi-devkit-simulator/hpdhkapigojggienmiejhblkhenjdbno)
+- [COBI.Bike DevKit Chrome Extension on Github](https://github.com/cobi-bike/COBI.js-simulator)
+- [COBI.Bike DevKit UI Components](https://github.com/cobi-bike/DevKit-UI)
 - [`COBI.js` reference](https://cobi-bike.github.io/COBI.js/)
 
 ### Other Tools & Resources
@@ -181,10 +185,10 @@ Read our [Interface Guidelines](interface-guidelines.md) to understand the uniqu
 
 ## 👏 Contributing to this project
 
-Anyone and everyone is welcome to contribute to this project, the [DevKit Simulator](https://github.com/cobi-bike/DevKit-Simulator) and the [COBI.bike DevKit UI Components](https://github.com/cobi-bike/DevKit-UI). Please take a moment to review the [guidelines for contributing](CONTRIBUTING.md).
+Anyone and everyone is welcome to contribute to this project, the [DevKit Simulator](https://github.com/cobi-bike/DevKit-Simulator) and the [COBI.Bike DevKit UI Components](https://github.com/cobi-bike/DevKit-UI). Please take a moment to review the [guidelines for contributing](CONTRIBUTING.md).
 
 * [Bug reports](CONTRIBUTING.md#bugs)
 * [Feature requests](CONTRIBUTING.md#features)
 * [Pull requests](CONTRIBUTING.md#pull-requests)
 
-Copyright © 2018 COBI.bike GmbH
+Copyright © 2018 COBI.Bike GmbH
