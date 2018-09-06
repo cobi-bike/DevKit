@@ -69,7 +69,7 @@ To simulate riding and fitness data you can play back one of our [sample cobitra
 
 ### On-bike testing 
 
-If you don't own a COBI.vike yet, apply for a hardware development kit at [cobi.bike/devkit](https://cobi.bike/devkit) or purchase one at [get.cobi.bike](https://get.cobi.bike). Afterwards, register as a developer to test your module on your bike. 
+If you don't own a COBI.Bike yet, apply for a hardware development kit at [cobi.bike/devkit](https://cobi.bike/devkit) or purchase one at [get.cobi.bike](https://get.cobi.bike). Afterwards, register as a developer to test your module on your bike. 
 
 [<img src="resources/become-dev-btn.png" width="262px" alt="Become a developer button">](https://my.cobi.bike/developer)
 
