@@ -5,7 +5,7 @@
 #### 1. To develop & test your module in the browser:
 
 * Baseline skills in modern web development
-* [DevKit Simulator](https://github.com/cobi-bike/COBI.js-simulator)
+* [DevKit Simulator](https://github.com/cobi-bike/DevKit-Simulator)
 
 You can turn any of your existing web apps into a module with a few extra lines of javascript.
 
@@ -18,7 +18,7 @@ You can turn any of your existing web apps into a module with a few extra lines 
 
 ### Do I need to purchase a COBI.Bike system to start building a module?
 
-No, you can get started for free with the [DevKit Simulator](https://github.com/cobi-bike/COBI.js-simulator) and test on a COBI.Bike system when you're ready. If you don't have one yet, you can purchase a developer edition on [cobi.bike/devkit](https://cobi.bike/devkit) or any other COBI.Bike system in our [online store](https://get.cobi.bike).
+No, you can get started for free with the [DevKit Simulator](https://github.com/cobi-bike/DevKit-Simulator) and test on a COBI.Bike system when you're ready. If you don't have one yet, you can purchase a developer edition on [cobi.bike/devkit](https://cobi.bike/devkit) or any other COBI.Bike system in our [online store](https://get.cobi.bike).
 
 ### How can I turn my website / webapp into a module?
 
@@ -26,7 +26,7 @@ Include `COBI.js` in your html and start subscribing to riding data and remote c
 
 ### Can you recommend any additional development tools / platforms to build modules?
 
-We like getting inspired on [codepen.io](https://codepen.io) and building prototypes on [glitch.me](https://glitch.me). Both work great with the [DevKit Simulator](https://github.com/cobi-bike/COBI.js-simulator).
+We like getting inspired on [codepen.io](https://codepen.io) and building prototypes on [glitch.me](https://glitch.me). Both work great with the [DevKit Simulator](https://github.com/cobi-bike/DevKit-Simulator).
 
 ## Technical FAQ
 
