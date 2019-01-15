@@ -49,7 +49,9 @@ We have noticed that sometimes there are some browser-related caching issues so 
 
 ### Any tips for debugging my module within the COBI.Bike app on the phone?
 
-The native app will display javascript errors in a dialog. Just activate this feature in the diagnostics settings of the app.
+The native app will display javascript errors in a dialog. Just activate this feature in the diagnostics settings of the app. In order to do that, open your COBI.Bike app while off-ride, and from the homescreen go into the settings. From there look for the Help section, where the `Diagnostics` option may be found. Once there toggle the option `Show module errrors`, as shown in the screenshot below.
+
+<img src="resources/diagnostics-debug-toggle.png" width="280px" alt="COBI.Bike iOS App Home">
 
 ### How do I get a specific version of the `COBI.js` library?
 
