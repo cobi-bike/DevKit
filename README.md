@@ -191,4 +191,4 @@ Anyone and everyone is welcome to contribute to this project, the [DevKit Simula
 * [Feature requests](CONTRIBUTING.md#features)
 * [Pull requests](CONTRIBUTING.md#pull-requests)
 
-Copyright © 2018 COBI.Bike GmbH
+Copyright © 2020 Robert Bosch GmbH
